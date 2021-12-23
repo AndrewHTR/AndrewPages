@@ -1,5 +1,5 @@
 p {
-    font-size: 20px;
+    font-size: 1.5vw;
 }
 
 a:hover {
@@ -12,9 +12,9 @@ a {
 }
 
 .divada {
-    border: 2px solid white;
-    border-radius: 10px;
-    padding: 5px;
+    border: 0.2vw solid white;
+    border-radius: 1vw;
+    padding: 0.4vw;
 }
 
 .clearfix {
@@ -70,9 +70,9 @@ footer a:hover {
     background-color: rgb(16, 16, 16);
     float: left;
     color: azure;
-    font-size: 22px;
+    font-size: 1.5vw;
     text-decoration: none;
-    padding: 12px;
+    padding: 0.8vw;
     text-align: left;
     border: 1px solid black;
     border-radius: 10px;
@@ -88,9 +88,9 @@ footer a:hover {
 }
 
 img {
-    width: 120px;
+    width: 8vw;
 }
 
 h2 {
-    font-size: 160%;
+    font-size: 1.83vw;
 }
