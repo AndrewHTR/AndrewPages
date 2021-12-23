@@ -17,24 +17,7 @@
             color: rgb(79, 79, 252);
         }
         
-        button {
-            background-color: red;
-            color: white;
-            text-decoration: none;
-            display: grid;
-            width: 70px;
-            height: 26px;
-        }
-        
-        button:hover {
-            background-color: blueviolet;
-        }
-        
-        img {
-            width: 120px;
-        }
-        
-        div {
+        .divada {
             border: 2px solid white;
             border-radius: 10px;
             padding: 5px;
@@ -46,8 +29,8 @@
         
         td {
             list-style-type: none;
-            margin: 0;
-            padding: 0;
+            margin: 0px;
+            padding: 2px;
             overflow: hidden;
             background-color: rgb(12, 12, 12);
         }
@@ -65,58 +48,107 @@
             color: white;
         }
         
-        h3 a {
+        footer a {
             color: white;
         }
         
-        h3 a:hover {
-            color: purple;
+        footer a:hover {
+            color: rgb(145, 40, 40);
+        }
+        
+        .note {
+            font-size: 110%;
+            color: rgb(255, 255, 255);
+        }
+        
+        .note:hover {
+            color: rgb(164, 18, 248);
+        }
+        
+        .topolista {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: visible;
+        }
+        
+        .lista a {
+            background-color: rgb(16, 16, 16);
+            float: left;
+            color: azure;
+            font-size: 22px;
+            text-decoration: none;
+            padding: 12px;
+            text-align: left;
+            border: 1px solid black;
+            border-radius: 10px;
+            border-collapse: collapse;
+            margin: 6px;
+            position: relative;
+            left: 0px;
+            top: -12px;
+        }
+        
+        .lista a:hover {
+            background-color: rgb(15, 15, 33);
+        }
+        
+        img {
+            width: 120px;
+        }
+        
+        h2 {
+            font-size: 160%;
         }
     </style>
 
-    <title>Inicio</title>
+    <title>Andrew Silva</title>
 
 </head>
 
 <body style="font-family: Arial, Helvetica, sans-serif;background-color: rgb(22, 22, 22);color: white;">
 
-    <div class="clearfix">
+    <div class="clearfix divada">
         <p title="Me pergunto se as coisas funcionam da maneira esperada">
-            <a href="https://andrewhtr.github.io/"><img src="subpage/imagens/sdad.png " alt="Quadrado dentro de um quadrado dentro de um quadrado dentro de um quadrado dentro de um quadrado" style="float:right; "></a>
+            <a href="https://andrewhtr.github.io/" target="_blank"><img src="subpage/imagens/sdad.png " alt="Quadrado dentro de um quadrado dentro de um quadrado dentro de um quadrado dentro de um quadrado" style="float:right; "></a>
         </p>
         <h1 style="clear: left; font-size: 42px;">Andrew Silva</h1>
+
         <p>
             Bem vindo ao meu site! <br> <br> Fiz este site com o intuito de escrever sobre oque aprendi em diversas linguagens, além de conceitos e guardar midia.<br> O site não está completo ainda então aguarde um pouco pois estou estudando para melhorar.
         </p>
 
         <h2>Links para subpaginas de HTML:</h2>
-        <table style="font-size: 20px;width: 18%;">
-            <tr>
-                <td><a href="subpage/htmlsubpage/texto.html">Página de TEXTO HTML</a></td>
+        <ul class="topolista">
+            <li class="lista"><a href="subpage/htmlsubpage/texto.html">TEXTO</a></li>
+            <li class="lista"><a href="subpage/htmlsubpage/midia.html">MIDIA</a></li>
+            <li class="lista"><a href="subpage/htmlsubpage/tags.html">TAGS</a></li>
 
-            </tr>
-            <tr>
-                <td><a href="subpage/htmlsubpage/midia.html">Página de MIDIA HTML</a></td>
-            </tr>
-        </table>
-
-        <h2 style="font-size: 30px;">Objetivos atualmente:</h2>
-
-        <ul style="list-style-type:circle;font-size: 22px;">
-
-            <li>Incluir projetos e codigos de python</li>
-            <li>Incluir oque aprendi sobre html e css até o momento.</li>
         </ul>
+        <div style="clear: both;"></div>
+        <h2>Links para subpaginas de Python</h2>
+        <ul class="topolista">
+            <li class="lista"><a href="subpage/pythonsubpage/comandos.html">COMANDOS</a></li>
+        </ul>
+        <div style="clear: both;">
+            <h2 style="font-size: 30px;">Objetivos atualmente:</h2>
 
+            <ul style="font-size: 22px;text-align: left;">
+                <li>Incluir projetos e codigos de python.</li>
+
+                <li ">Incluir oque aprendi sobre html e css até o momento.</li>
+            </ul>
+            </div>
+        </div>
     </div>
 
     <br>
-    <div>
-        <h3 style="text-align: center;font-size: 150%;">
-            <a href="https://www.youtube.com/watch?v=__QdAxqBi5Y&t=45s"><ins>I'd argue that everybody wants to do something that matters...</ins></a>
-        </h3>
-    </div>
 
+    <div class="divada " style="padding: 26px; ">
+    <footer style="text-align: center;font-size: 170%; ">
+        <a href="https://www.youtube.com/watch?v=__QdAxqBi5Y&t=45s "><ins><b>I'd argue that everybody wants to do something that matters...</b></ins></a>
+    </footer>
+</div>
 </body>
 
 </html>
