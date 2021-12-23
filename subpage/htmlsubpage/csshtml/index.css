@@ -1,0 +1,96 @@
+p {
+    font-size: 20px;
+}
+
+a:hover {
+    color: purple;
+    background-color: transparent;
+}
+
+a {
+    color: rgb(79, 79, 252);
+}
+
+.divada {
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+td {
+    list-style-type: none;
+    margin: 0px;
+    padding: 2px;
+    overflow: hidden;
+    background-color: rgb(12, 12, 12);
+}
+
+td a {
+    display: block;
+    color: white;
+    text-align: left;
+    padding: 5px;
+    text-decoration: none;
+}
+
+td a:hover {
+    background-color: rgb(38, 38, 38);
+    color: white;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: rgb(145, 40, 40);
+}
+
+.note {
+    font-size: 110%;
+    color: rgb(255, 255, 255);
+}
+
+.note:hover {
+    color: rgb(164, 18, 248);
+}
+
+.topolista {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+}
+
+.lista a {
+    background-color: rgb(16, 16, 16);
+    float: left;
+    color: azure;
+    font-size: 22px;
+    text-decoration: none;
+    padding: 12px;
+    text-align: left;
+    border: 1px solid black;
+    border-radius: 10px;
+    border-collapse: collapse;
+    margin: 6px;
+    position: relative;
+    left: 0px;
+    top: -12px;
+}
+
+.lista a:hover {
+    background-color: rgb(15, 15, 33);
+}
+
+img {
+    width: 120px;
+}
+
+h2 {
+    font-size: 160%;
+}

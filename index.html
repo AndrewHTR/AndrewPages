@@ -3,111 +3,14 @@
 
 <head>
     <link rel="icon" href="subpage/imagens/icone.ico">
-    <style>
-        p {
-            font-size: 20px;
-        }
-        
-        a:hover {
-            color: purple;
-            background-color: transparent;
-        }
-        
-        a {
-            color: rgb(79, 79, 252);
-        }
-        
-        .divada {
-            border: 2px solid white;
-            border-radius: 10px;
-            padding: 5px;
-        }
-        
-        .clearfix {
-            overflow: auto;
-        }
-        
-        td {
-            list-style-type: none;
-            margin: 0px;
-            padding: 2px;
-            overflow: hidden;
-            background-color: rgb(12, 12, 12);
-        }
-        
-        td a {
-            display: block;
-            color: white;
-            text-align: left;
-            padding: 5px;
-            text-decoration: none;
-        }
-        
-        td a:hover {
-            background-color: rgb(38, 38, 38);
-            color: white;
-        }
-        
-        footer a {
-            color: white;
-        }
-        
-        footer a:hover {
-            color: rgb(145, 40, 40);
-        }
-        
-        .note {
-            font-size: 110%;
-            color: rgb(255, 255, 255);
-        }
-        
-        .note:hover {
-            color: rgb(164, 18, 248);
-        }
-        
-        .topolista {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            overflow: visible;
-        }
-        
-        .lista a {
-            background-color: rgb(16, 16, 16);
-            float: left;
-            color: azure;
-            font-size: 22px;
-            text-decoration: none;
-            padding: 12px;
-            text-align: left;
-            border: 1px solid black;
-            border-radius: 10px;
-            border-collapse: collapse;
-            margin: 6px;
-            position: relative;
-            left: 0px;
-            top: -12px;
-        }
-        
-        .lista a:hover {
-            background-color: rgb(15, 15, 33);
-        }
-        
-        img {
-            width: 120px;
-        }
-        
-        h2 {
-            font-size: 160%;
-        }
-    </style>
+    <link rel="stylesheet" href="subpage/htmlsubpage/csshtml/index.css">
+
 
     <title>Andrew Silva</title>
-
+    <script src="subpage/htmlsubpage/jshtml/index.js" async></script>
 </head>
 
 <body style="font-family: Arial, Helvetica, sans-serif;background-color: rgb(22, 22, 22);color: white;">
-
     <div class="clearfix divada">
         <p title="Me pergunto se as coisas funcionam da maneira esperada">
             <a href="https://andrewhtr.github.io/" target="_blank"><img src="subpage/imagens/sdad.png " alt="Quadrado dentro de um quadrado dentro de um quadrado dentro de um quadrado dentro de um quadrado" style="float:right; "></a>
@@ -126,7 +29,7 @@
 
         </ul>
         <div style="clear: both;"></div>
-        <h2>Links para subpaginas de Python</h2>
+        <h2>Links para subpaginas de Python:</h2>
         <ul class="topolista">
             <li class="lista"><a href="subpage/pythonsubpage/comandos.html">COMANDOS</a></li>
         </ul>
@@ -146,7 +49,12 @@
     <footer style="text-align: center;font-size: 170%; ">
         <a href="https://www.youtube.com/watch?v=__QdAxqBi5Y&t=45s "><ins><b>I'd argue that everybody wants to do something that matters...</b></ins></a>
     </footer>
+    
+    <button type="button " onclick="minhaFunc(); outraFunc() ">clina ni min</button>
+    <p id="demo ">Clica nu butaumzin vai</p>
 </div>
+    
+   
 </body>
 
 </html>
