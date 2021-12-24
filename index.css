@@ -1,102 +1,167 @@
-p {
-    font-size: 1.5vw;
-}
-
-a:hover {
-    color: purple;
-    background-color: transparent;
-}
-
-a {
-    color: rgb(79, 79, 252);
-}
-
-.divada {
-    border: 0.2vw solid white;
-    border-radius: 1vw;
-    padding: 0.4vw;
-}
-
-.clearfix {
-    overflow: auto;
-}
-
-td {
-    list-style-type: none;
-    margin: 0px;
-    padding: 2px;
-    overflow: hidden;
-    background-color: rgb(12, 12, 12);
-}
-
-td a {
-    display: block;
-    color: white;
-    text-align: left;
-    padding: 5px;
-    text-decoration: none;
-}
-
-td a:hover {
-    background-color: rgb(38, 38, 38);
-    color: white;
-}
-
-footer a {
-    color: white;
-}
-
-footer a:hover {
-    color: rgb(145, 40, 40);
-}
-
-.note {
-    font-size: 110%;
-    color: rgb(255, 255, 255);
-}
-
-.note:hover {
-    color: rgb(164, 18, 248);
-}
-
-.topolista {
-    list-style-type: none;
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&family=Permanent+Marker&family=Righteous&display=swap');
+* {
     margin: 0;
     padding: 0;
-    overflow: visible;
-}
-
-.lista a {
-    background-color: rgb(16, 16, 16);
-    float: left;
-    color: azure;
-    font-size: 1.5vw;
+    box-sizing: border-box;
     text-decoration: none;
-    padding: 0.8vw;
-    text-align: left;
-    border: 1px solid black;
-    border-radius: 10px;
-    border-collapse: collapse;
-    margin: 6px;
-    position: relative;
-    left: 0px;
-    top: -12px;
-}
-
-.lista a:hover {
-    background-color: rgb(15, 15, 33);
-}
-
-img {
-    width: 8vw;
-}
-
-h2 {
-    font-size: 1.83vw;
 }
 
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(22, 22, 22);
     color: white;
+}
+
+.header {
+    padding-top: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid white;
+    padding: 20px;
+}
+
+.header-h1 {
+    position: relative;
+    left: -5vw;
+    font-size: 3.5vw;
+    cursor: pointer;
+    font-family: 'Righteous', cursive;
+}
+
+.navi .aaa {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.dropdown {
+    background-color: rgba(22, 0, 0, 0.261);
+    padding: 8px 6px;
+    border-radius: 2px;
+    border: 0.1px solid rgba(255, 255, 255, 0.09);
+    font-size: 1.1vw;
+    min-width: 100px;
+}
+
+.dropdown:hover {
+    cursor: pointer;
+    background-color: rgb(63, 63, 63);
+}
+
+.dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+    margin: 5px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0, 0.2);
+    z-index: 1;
+    min-width: 100px;
+    font-size: 1vw;
+    margin: -7px;
+    top: 5vw;
+    align-items: center;
+    text-align: center;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    display: block;
+    text-align: left;
+    min-width: 90px;
+}
+
+.dropdown-content a:hover {
+    background-color: rgb(206, 206, 206);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.aaa {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.main {
+    margin: 30px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    text-align: left;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.footer {
+    border-top: 1px solid white;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+#argue {
+    font-size: 1.5vw;
+    margin: 0 auto;
+    color: white;
+    position: relative;
+    left: 5.6vw;
+}
+
+#argue:hover {
+    color: rgb(242, 61, 61);
+}
+
+.listinha {
+    list-style-type: disc;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.subti {
+    font-size: 2vw;
+}
+
+.horario {
+    position: relative;
+    top: 5.4vw;
+    right: 1vw;
+    font-size: 1.4vw;
+}
+
+#lista1 {
+    padding-right: 4vw;
+}
+
+#lista2 {
+    padding-right: 47.1vw;
+}
+
+#prea {
+    font-size: 1.3vw;
+}
+
+#subtitulo {
+    font-size: 2.5vw;
 }
