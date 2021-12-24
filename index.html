@@ -2,7 +2,7 @@
 <html lang="pt-BR">
 
 <head>
-    <script src="subpage/htmlsubpage/jshtml/index.js" async></script>
+    <script src="index.js" async></script>
     <link rel="stylesheet" href="index.css">
     <link rel="icon" href="subpage/imagens/icone.ico">
     <meta charset="UTF-8">
@@ -12,12 +12,14 @@
 </head>
 
 <body>
-    <header class="header">
+    <header id="navizinha" class="header">
+
+
         <h1 class="header-h1">Andrew Silva</h1>
         <nav class="navi">
             <ul class="aaa">
                 <li class="dropdown"><a class="dropbtn">HTML</a>
-                    <div style="margin: -7px;" class="dropdown-content">
+                    <div style="margin: -7px;margin-left: -6px;" class="dropdown-content jlista">
                         <a href="subpage/htmlsubpage/texto.html">TEXTO</a>
                         <a href="subpage/htmlsubpage/tags.html">TAGS</a>
                         <a href="subpage/htmlsubpage/midia.html"> MIDIA</a>
@@ -25,20 +27,22 @@
                 </li>
 
                 <li class="dropdown"><a class="dropbtn">JavaScript</a>
-                    <div style="margin: 4.1px;" class="dropdown-content">
+                    <div id="jsl" style="margin: -6px;" class="dropdown-content jlista">
                         <a>USOS</a>
                     </div>
                 </li>
                 <li class="dropdown"><a class="dropbtn">PYTHON</a>
-                    <div class="dropdown-content">
+                    <div class="dropdown-content jlista">
                         <a href="subpage/pythonsubpage/comandos.html">COMANDOS</a>
                     </div>
+
                 </li>
             </ul>
         </nav>
+
     </header>
     <main class="main">
-        <h2 id="subtitulo" class="subti">Seja bem-vindo!</h2>
+        <h2 id="subtitulo" class="subti"><strong>Seja bem-vindo!</strong></h2>
         <pre id="prea">Criei este site com o intuito de depositar meus aprendizados e guardá-los em algum lugar!
 Você pode selecionar alguma das páginas passando o mouse nos botões acima 
 O site não está completo ainda, então aguarde um pouco pois estou estudando para melhorar!</pre>

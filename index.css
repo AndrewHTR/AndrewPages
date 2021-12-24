@@ -14,17 +14,18 @@ body {
 }
 
 .header {
-    padding-top: 12px;
+    padding-top: 0.0vw;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     border-bottom: 1px solid white;
-    padding: 20px;
+    background-color: rgb(7, 7, 7);
 }
 
 .header-h1 {
     position: relative;
+    top: 0.07vw;
     left: -5vw;
     font-size: 3.5vw;
     cursor: pointer;
@@ -37,15 +38,13 @@ body {
     list-style-type: none;
     list-style-type: none;
     margin: 0;
-    padding: 0;
     overflow: hidden;
+    padding-left: 400px;
 }
 
 .dropdown {
     background-color: rgba(22, 0, 0, 0.261);
     padding: 8px 6px;
-    border-radius: 2px;
-    border: 0.1px solid rgba(255, 255, 255, 0.09);
     font-size: 1.1vw;
     min-width: 100px;
 }
@@ -70,7 +69,7 @@ body {
     background-color: rgb(255, 255, 255);
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0, 0.2);
     z-index: 1;
-    min-width: 100px;
+    min-width: 99.2px;
     font-size: 1vw;
     margin: -7px;
     top: 5vw;
@@ -102,7 +101,7 @@ body {
 
 .main {
     margin: 30px;
-    padding: 20px;
+    padding-top: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -159,9 +158,27 @@ body {
 }
 
 #prea {
-    font-size: 1.3vw;
+    font-size: 1.4vw;
 }
 
 #subtitulo {
     font-size: 2.5vw;
+}
+
+#jsl a {
+    min-width: 119px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.main {
+    padding-top: 7vw;
+}
+
+.jlista {
+    top: 4.9vw;
 }
