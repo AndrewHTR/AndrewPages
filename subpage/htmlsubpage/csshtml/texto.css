@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&family=Permanent+Marker&family=Righteous&display=swap');
 table,
 th,
 td {
     border: 2px solid black;
     border-collapse: collapse;
-    padding: 2px;
 }
 
 table {
@@ -16,12 +17,185 @@ td:hover {
     background-color: rgb(111, 111, 111);
 }
 
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(22, 22, 22);
-}
-
 caption {
     font-size: 48px;
     color: white;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(22, 22, 22);
+    color: white;
+}
+
+.header {
+    padding-top: 0.0vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid white;
+    background-color: rgb(7, 7, 7);
+}
+
+.header-h1 {
+    position: relative;
+    left: -5vw;
+    font-size: 3.5vw;
+    cursor: pointer;
+    font-family: 'Righteous', cursive;
+}
+
+.header-h1 a {
+    text-decoration: none;
+    color: white;
+}
+
+.navi .aaa {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    padding-left: 400px;
+}
+
+.dropdown {
+    background-color: rgba(22, 0, 0, 0.261);
+    padding: 12px 6px;
+    font-size: 1.1vw;
+    min-width: 100px;
+}
+
+.dropdown:hover {
+    cursor: pointer;
+    background-color: rgb(63, 63, 63);
+}
+
+.dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 8px 12px;
+    text-decoration: none;
+    margin: 5px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0, 0.2);
+    z-index: 1;
+    min-width: 6.9vw;
+    font-size: 1vw;
+    margin: -7px;
+    top: 5vw;
+    align-items: center;
+    text-align: center;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: rgb(206, 206, 206);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.aaa {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.footer {
+    border-top: 1px solid white;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: 'IBM Plex Sans', sans-serif;
+    background-color: rgba(16, 15, 15, 0.645);
+    padding-bottom: 76px;
+}
+
+#argue {
+    font-size: 1.5vw;
+    margin: 0 auto;
+    color: white;
+    position: relative;
+    left: 5.6vw;
+}
+
+#argue:hover {
+    color: rgb(242, 61, 61);
+}
+
+.listinha {
+    list-style-type: disc;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.subti {
+    font-size: 2vw;
+}
+
+.horario {
+    position: relative;
+    top: 5.4vw;
+    right: 1vw;
+    font-size: 1.4vw;
+}
+
+#lista1 {
+    padding-right: 4vw;
+}
+
+#lista2 {
+    padding-right: 50.9vw;
+}
+
+#prea {
+    font-size: 1.5vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#subtitulo {
+    font-size: 2.5vw;
+}
+
+#jsl a {
+    min-width: 8.3vw;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.main {
+    padding-top: 7vw;
+}
+
+.jlista {
+    top: 4.9vw;
 }

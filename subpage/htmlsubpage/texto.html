@@ -5,131 +5,174 @@
     <link rel="icon" href="../imagens/icone.ico">
     <title>Texto</title>
     <link rel="stylesheet" href="./csshtml/texto.css">
+    <script src="jshtml/texto.js" async></script>
 </head>
 
 <body>
-
-    <table>
-        <caption><b>Tags para formatação de texto</b></caption>
-        <colgroup>
-            <col span="2" style="background-color:white">
-            <col style="background-color:rgb(213, 213, 213);transform: rotateX(23deg);">
-        </colgroup>
-        <tr>
-            <th>Texto</th>
-            <th>Tag</th>
-            <th>Resultado</th>
-        </tr>
-        <tr>
-            <td>Texto em negrito</td>
-            <td>Tag &ltb&gt</td>
-            <td><b>Texto em negrito</b></td>
-        </tr>
-        <tr>
-            <td>Texto import</td>
-            <td>Tag &ltstrong&gt</td>
-            <td><strong>Texto importante</strong> </td>
-        </tr>
-        <tr>
-            <td>Texto em italico</td>
-            <td>Tag &lti&gt</td>
-            <td><i>Texto em italico</i></td>
-        </tr>
-        <tr>
-            <td>Texto enfatizado</td>
-            <td>Tag &ltem&gt</td>
-            <td><em>Texto enfatizado</em></td>
-        </tr>
-        <tr>
-            <td>Marca texto</td>
-            <td>Tag &ltmark&gt</td>
-            <td><mark>Marca texto</mark></td>
-        </tr>
-        <tr>
-            <td>Diminuir texto</td>
-            <td>Tag &ltsmall&gt</td>
-            <td><small>Diminuir texto</small></td>
-        </tr>
-        <tr>
-            <td>Texto deletado</td>
-            <td>Tag &ltdel&gt</td>
-            <td><del>Texto deletado</del></td>
-        </tr>
-        <tr>
-            <td>Texto com sobrelinha</td>
-            <td>Tag &ltins&gt</td>
-            <td><ins>Texto com sobrelinha</ins></td>
-        </tr>
-        <tr>
-            <td>Texto abaixo da linha</td>
-            <td>Tag &ltsub&gt</td>
-            <td><sub>Texto abaixo da linha</sub></td>
-        </tr>
-        <tr>
-            <td>Texto acima da linha</td>
-            <td>Tag &ltsup&gt</td>
-            <td><sup>Texto acima da linha</sup></td>
-        </tr>
-    </table>
-
-    <table style="position:relative; top: 10px;">
-        <caption><b>Tags de Header</b></caption>
-        <colgroup>
-            <col span="2" style="background-color: white;">
-            <col style="background-color: rgb(213, 213, 213);">
-        </colgroup>
-        <tr>
-            <th>Texto</th>
-            <th>Tag</th>
-            <th>Resultado</th>
-        </tr>
-        <tr>
-            <td>Header 1</td>
-            <td>Tag &lth1&gt</td>
-            <td>
-                <h1>Header 1</h1>
-            </td>
-        </tr>
-        <tr>
-            <td>Header 2</td>
-            <td>Tag &lth2&gt</td>
-            <td>
-                <h2>Header 2</h2>
-            </td>
-        </tr>
-        <tr>
-            <td>Header 3</td>
-            <td>Tag &lth3&gt</td>
-            <td>
-                <h3>Header 3</h3>
-            </td>
-        </tr>
-        <tr>
-            <td>Header 4</td>
-            <td>Tag &lth4&gt</td>
-            <td>
-                <h4>Header 4</h4>
-            </td>
-        </tr>
-        <tr>
-            <td>Header 5</td>
-            <td>Tag &lth5&gt</td>
-            <td>
-                <h5>Header 5</h5>
-            </td>
-        </tr>
-        <tr>
-            <td>Header 6</td>
-            <td>Tag &lth6&gt</td>
-            <td>
-                <h6>Header 6</h6>
-            </td>
-        </tr>
-    </table>
+    <header id="navizinha" class="header">
 
 
+        <h1 class="header-h1"><a href="/index.html">Andrew Silva</a></h1>
+        <nav class="navi">
+            <ul class="aaa">
+                <li class="dropdown"><a class="dropbtn">HTML</a>
+                    <div style="margin: -7px;margin-left: -6px;" class="dropdown-content jlista ">
+                        <a href="texto.html">TEXTO</a>
+                        <a href="tags.html">TAGS</a>
+                        <a href="midia.html"> MIDIA</a>
+                    </div>
+                </li>
+
+                <li class="dropdown"><a class="dropbtn">JavaScript</a>
+                    <div id="jsl" style="margin: -6px;" class="dropdown-content jlista">
+                        <a>USOS</a>
+                    </div>
+                </li>
+                <li class="dropdown"><a class="dropbtn">PYTHON</a>
+                    <div class="dropdown-content jlista ">
+                        <a href="/subpage/pythonsubpage/comandos.html">COMANDOS</a>
+
+                    </div>
+
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+    <main class="main">
+        <table>
+
+            <caption><b>Tags para formatação de texto</b></caption>
+            <colgroup>
+                <col span="2" style="background-color:white">
+                <col style="background-color:rgb(213, 213, 213);transform: rotateX(23deg);">
+            </colgroup>
+            <tr>
+                <th>Texto</th>
+                <th>Tag</th>
+                <th>Resultado</th>
+            </tr>
+            <tr>
+                <td>Texto em negrito</td>
+                <td>Tag &ltb&gt</td>
+                <td><b>Texto em negrito</b></td>
+            </tr>
+            <tr>
+                <td>Texto import</td>
+                <td>Tag &ltstrong&gt</td>
+                <td><strong>Texto importante</strong> </td>
+            </tr>
+            <tr>
+                <td>Texto em italico</td>
+                <td>Tag &lti&gt</td>
+                <td><i>Texto em italico</i></td>
+            </tr>
+            <tr>
+                <td>Texto enfatizado</td>
+                <td>Tag &ltem&gt</td>
+                <td><em>Texto enfatizado</em></td>
+            </tr>
+            <tr>
+                <td>Marca texto</td>
+                <td>Tag &ltmark&gt</td>
+                <td><mark>Marca texto</mark></td>
+            </tr>
+            <tr>
+                <td>Diminuir texto</td>
+                <td>Tag &ltsmall&gt</td>
+                <td><small>Diminuir texto</small></td>
+            </tr>
+            <tr>
+                <td>Texto deletado</td>
+                <td>Tag &ltdel&gt</td>
+                <td><del>Texto deletado</del></td>
+            </tr>
+            <tr>
+                <td>Texto com sobrelinha</td>
+                <td>Tag &ltins&gt</td>
+                <td><ins>Texto com sobrelinha</ins></td>
+            </tr>
+            <tr>
+                <td>Texto abaixo da linha</td>
+                <td>Tag &ltsub&gt</td>
+                <td><sub>Texto abaixo da linha</sub></td>
+            </tr>
+            <tr>
+                <td>Texto acima da linha</td>
+                <td>Tag &ltsup&gt</td>
+                <td><sup>Texto acima da linha</sup></td>
+            </tr>
+        </table>
+
+        <table style="position:relative; top: 10px;">
+            <caption><b>Tags de Header</b></caption>
+            <colgroup>
+                <col span="2" style="background-color: white;">
+                <col style="background-color: rgb(213, 213, 213);">
+            </colgroup>
+            <tr>
+                <th>Texto</th>
+                <th>Tag</th>
+                <th>Resultado</th>
+            </tr>
+            <tr>
+                <td>Header 1</td>
+                <td>Tag &lth1&gt</td>
+                <td>
+                    <h1>Header 1</h1>
+                </td>
+            </tr>
+            <tr>
+                <td>Header 2</td>
+                <td>Tag &lth2&gt</td>
+                <td>
+                    <h2>Header 2</h2>
+                </td>
+            </tr>
+            <tr>
+                <td>Header 3</td>
+                <td>Tag &lth3&gt</td>
+                <td>
+                    <h3>Header 3</h3>
+                </td>
+            </tr>
+            <tr>
+                <td>Header 4</td>
+                <td>Tag &lth4&gt</td>
+                <td>
+                    <h4>Header 4</h4>
+                </td>
+            </tr>
+            <tr>
+                <td>Header 5</td>
+                <td>Tag &lth5&gt</td>
+                <td>
+                    <h5>Header 5</h5>
+                </td>
+            </tr>
+            <tr>
+                <td>Header 6</td>
+                <td>Tag &lth6&gt</td>
+                <td>
+                    <h6>Header 6</h6>
+                </td>
+            </tr>
+        </table>
 
 
+        <pre>
+    aa
+    a
+    a
+
+    a
+    a
+    a
+    a
+    a
+    a
+</pre>
+    </main>
 </body>
 
 </html>
