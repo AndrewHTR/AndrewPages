@@ -114,9 +114,63 @@ body {
 }
 
 .main {
-    padding-top: 7vw;
+    padding-top: 1vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .jlista {
     top: 4.9vw;
+}
+
+.footer {
+    border-top: 1px solid white;
+    padding-top: 36px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'IBM Plex Sans', sans-serif;
+    background-color: rgba(16, 15, 15, 0.645);
+    padding-bottom: 80px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.horario {
+    position: relative;
+    top: 5.4vw;
+    right: 1vw;
+    font-size: 1.4vw;
+}
+
+#criador {
+    left: 1%;
+    font-size: 1.4vw;
+}
+
+#criador a {
+    color: white;
+}
+
+#criador a:hover {
+    color: rgba(120, 20, 160, 0.672);
+}
+
+#argue {
+    font-size: 1.5vw;
+    margin: 0 auto;
+    color: white;
+    position: relative;
+    right: 6.2%;
+}
+
+#argue:hover {
+    color: rgba(120, 20, 160, 0.672);
+}
+
+#subtitulo {
+    font-size: 2.5vw;
 }

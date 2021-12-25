@@ -26,3 +26,9 @@ document.getElementById("navizinha").innerHTML =
     "</li>" +
     " </ul>" +
     "</nav>";
+
+document.getElementById("aaa").innerHTML = '<span id="criador" class="horario">Criado por: <a href="https://github.com/AndrewHTR"><strong>Andrew Kauã da Silva Santos</strong></a></span>' +
+    '<a id="argue" href="https://www.youtube.com/watch?v=__QdAxqBi5Y&t "><ins><b><h2 class="h2-footer">Id argue that everybody wants to do something that matters...</h2></b></ins></a>' +
+    '<div class="horario">' +
+    '<strong><span id="sa"></span></strong>' +
+    '</div>'

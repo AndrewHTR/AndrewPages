@@ -123,7 +123,7 @@ body {
     justify-content: space-around;
     font-family: 'IBM Plex Sans', sans-serif;
     background-color: rgba(16, 15, 15, 0.645);
-    padding-bottom: 76px;
+    padding-bottom: 80px;
 }
 
 #argue {
@@ -131,7 +131,7 @@ body {
     margin: 0 auto;
     color: white;
     position: relative;
-    right: 5%;
+    right: 6.2%;
 }
 
 #argue:hover {
