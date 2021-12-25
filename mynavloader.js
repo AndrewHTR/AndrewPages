@@ -1,6 +1,4 @@
 document.getElementById("navizinha").innerHTML =
-
-
     '<h1 title = "Voltar para o inicio" class = "header-h1"> <a href="/index.html">Andrew Silva</a></h1>' +
     '<nav class="navi">' +
     '<ul class="aaa">' +
