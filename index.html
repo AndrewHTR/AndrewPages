@@ -3,8 +3,9 @@
 
 <head>
     <script src="index.js" async></script>
+    <script src="mynavloader.js" async></script>
     <link rel="stylesheet" href="index.css">
-    <link rel="icon" href="subpage/imagens/icone.ico">
+    <link rel="icon" href="/imagens/icone.ico">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Site para uso de guardar oque aprendi">
@@ -13,34 +14,7 @@
 
 <body>
     <header id="navizinha" class="header">
-
-
-        <h1 class="header-h1"><a href="https://github.com/AndrewHTR">Andrew Silva</a></h1>
-        <nav class="navi">
-            <ul class="aaa">
-                <li class="dropdown"><a class="dropbtn">HTML</a>
-                    <div style="margin: -7px;margin-left: -6px;" class="dropdown-content jlista ">
-                        <a href="subpage/htmlsubpage/texto.html">TEXTO</a>
-                        <a href="subpage/htmlsubpage/tags.html">TAGS</a>
-                        <a href="subpage/htmlsubpage/midia.html"> MIDIA</a>
-                    </div>
-                </li>
-
-                <li class="dropdown"><a class="dropbtn">JavaScript</a>
-                    <div id="jsl" style="margin: -6px;" class="dropdown-content jlista">
-                        <a>USOS</a>
-                    </div>
-                </li>
-                <li class="dropdown"><a class="dropbtn">PYTHON</a>
-                    <div class="dropdown-content jlista ">
-                        <a href="subpage/pythonsubpage/comandos.html">COMANDOS</a>
-
-                    </div>
-
-                </li>
-            </ul>
-        </nav>
-
+        <!-- Usando o mynavloader.js para carregar a header com navbar-->
     </header>
     <main class="main">
         <h2 id="subtitulo" class="subti"><strong>Seja bem-vindo!</strong></h2>
@@ -63,9 +37,10 @@ O site não está completo ainda, então aguarde um pouco pois estou estudando p
 
     </main>
     <footer class="footer">
-        <a id="argue" href="https://www.youtube.com/watch?v=__QdAxqBi5Y&t=45s "><ins><b><h2 class="h2-footer">I'd argue that everybody wants to do something that matters...</h2></b></ins></a>
+        <span id="criador" class="horario"><a href="https://github.com/AndrewHTR">Criado por <strong>Andrew Kauã da Silva Santos</strong></a></span>
+        <a id="argue" href="https://www.youtube.com/watch?v=__QdAxqBi5Y&t "><ins><b><h2 class="h2-footer">I'd argue that everybody wants to do something that matters...</h2></b></ins></a>
         <div class="horario">
-            <span id="sa "></span>
+            <strong><span id="sa"></span></strong>
         </div>
     </footer>
 </body>

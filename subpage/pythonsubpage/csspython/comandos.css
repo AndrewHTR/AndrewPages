@@ -20,12 +20,13 @@ body {
     justify-content: space-around;
     align-items: center;
     border-bottom: 1px solid white;
-    background-color: rgb(7, 7, 7);
+    background-color: rgba(7, 7, 7, 0.59);
 }
 
 .header-h1 {
     position: relative;
-    left: -5vw;
+    top: 1%;
+    left: 2%;
     font-size: 3.5vw;
     cursor: pointer;
     font-family: 'Righteous', cursive;
@@ -47,8 +48,8 @@ body {
 }
 
 .dropdown {
-    background-color: rgba(22, 0, 0, 0.261);
-    padding: 10px 6px;
+    background-color: rgba(7, 7, 7, 0);
+    padding: 12px 6px;
     font-size: 1.1vw;
     min-width: 100px;
 }
@@ -100,42 +101,6 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-}
-
-.main {
-    margin: 30px;
-    padding-top: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 40px;
-    text-align: left;
-}
-
-.footer {
-    border-top: 1px solid white;
-    padding-top: 20px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    font-family: 'IBM Plex Sans', sans-serif;
-    background-color: rgba(16, 15, 15, 0.645);
-    padding-bottom: 76px;
-}
-
-.subti {
-    font-size: 2vw;
-}
-
-.horario {
-    position: relative;
-    top: 5.4vw;
-    right: 1vw;
-    font-size: 1.4vw;
-}
-
-#subtitulo {
-    font-size: 2.5vw;
 }
 
 #jsl a {

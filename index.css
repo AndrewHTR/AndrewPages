@@ -14,19 +14,19 @@ body {
 }
 
 .header {
-    padding-top: 0.0vw;
+    padding-top: -5%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     border-bottom: 1px solid white;
-    background-color: rgb(7, 7, 7);
+    background-color: rgba(7, 7, 7, 0.59);
 }
 
 .header-h1 {
     position: relative;
-    top: 0.07vw;
-    left: -5vw;
+    top: 1%;
+    left: 2%;
     font-size: 3.5vw;
     cursor: pointer;
     font-family: 'Righteous', cursive;
@@ -48,7 +48,7 @@ body {
 }
 
 .dropdown {
-    background-color: rgba(22, 0, 0, 0.261);
+    background-color: rgba(7, 7, 7, 0);
     padding: 8px 6px;
     font-size: 1.1vw;
     min-width: 100px;
@@ -111,11 +111,13 @@ body {
     align-items: center;
     gap: 40px;
     text-align: left;
+    position: static;
+    padding-bottom: 19.7px;
 }
 
 .footer {
     border-top: 1px solid white;
-    padding-top: 20px;
+    padding-top: 36px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -129,11 +131,11 @@ body {
     margin: 0 auto;
     color: white;
     position: relative;
-    left: 5.6vw;
+    right: 5%;
 }
 
 #argue:hover {
-    color: rgb(242, 61, 61);
+    color: rgba(120, 20, 160, 0.672);
 }
 
 .listinha {
@@ -141,6 +143,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    font-size: 1.3vw;
 }
 
 .subti {
@@ -187,4 +190,17 @@ body {
 
 .jlista {
     top: 4.9vw;
+}
+
+#criador {
+    left: 1%;
+    font-size: 1.4vw;
+}
+
+#criador a {
+    color: white;
+}
+
+#criador a:hover {
+    color: rgba(120, 20, 160, 0.672);
 }

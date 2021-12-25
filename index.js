@@ -22,11 +22,11 @@ function outraFunc() {
     a.color = "blue"
 }
 var today = new Date();
-document.getElementById("sa ").innerText = "Horário: " + today.toLocaleTimeString();
+document.getElementById("sa").innerText = "Horário: " + today.toLocaleTimeString();
 
 function minhaFunca() {
     var today = new Date();
-    document.getElementById("sa ").innerText = "Horário: " + today.toLocaleTimeString();
+    document.getElementById("sa").innerText = "Horário: " + today.toLocaleTimeString();
 }
 
 

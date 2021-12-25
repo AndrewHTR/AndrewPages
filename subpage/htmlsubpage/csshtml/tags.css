@@ -20,12 +20,13 @@ body {
     justify-content: space-around;
     align-items: center;
     border-bottom: 1px solid white;
-    background-color: rgb(7, 7, 7);
+    background-color: rgba(7, 7, 7, 0.59);
 }
 
 .header-h1 {
     position: relative;
-    left: -5vw;
+    top: 1%;
+    left: 2%;
     font-size: 3.5vw;
     cursor: pointer;
     font-family: 'Righteous', cursive;
@@ -47,7 +48,7 @@ body {
 }
 
 .dropdown {
-    background-color: rgba(22, 0, 0, 0.261);
+    background-color: rgba(7, 7, 7, 0);
     padding: 12px 6px;
     font-size: 1.1vw;
     min-width: 100px;
@@ -100,64 +101,6 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-}
-
-.footer {
-    border-top: 1px solid white;
-    padding-top: 20px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    font-family: 'IBM Plex Sans', sans-serif;
-    background-color: rgba(16, 15, 15, 0.645);
-    padding-bottom: 76px;
-}
-
-#argue {
-    font-size: 1.5vw;
-    margin: 0 auto;
-    color: white;
-    position: relative;
-    left: 5.6vw;
-}
-
-#argue:hover {
-    color: rgb(242, 61, 61);
-}
-
-.listinha {
-    list-style-type: disc;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-
-.subti {
-    font-size: 2vw;
-}
-
-.horario {
-    position: relative;
-    top: 5.4vw;
-    right: 1vw;
-    font-size: 1.4vw;
-}
-
-#lista1 {
-    padding-right: 4vw;
-}
-
-#lista2 {
-    padding-right: 50.9vw;
-}
-
-#prea {
-    font-size: 1.5vw;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-#subtitulo {
-    font-size: 2.5vw;
 }
 
 #jsl a {
