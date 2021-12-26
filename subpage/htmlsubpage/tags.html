@@ -4,9 +4,10 @@
 <head>
     <link rel="icon" href="/imagens/icone.ico">
     <title>Tags</title>
-    <link rel="stylesheet" href="./csshtml/tags.css">
+    <link rel="stylesheet" href="./csshtml/tags.css" media="screen">
+    <link rel="stylesheet" href="/utils/mycssloader.css" media="screen">
     <script src="jshtml/texto.js" async></script>
-    <script src="/mynavloader.js" async></script>
+    <script src="/utils/mynavloader.js" async></script>
 </head>
 
 <body>
@@ -14,92 +15,92 @@
         <!-- Usando o mynavloader.js para carregar a header com navbar-->
     </header>
     <main id="main" class="main">
-        <h2>Primeiro falaremos sobre a Manipulação de Texto</h2>
+
+
+        <h2 class="h2">Primeiro falaremos sobre a Manipulação de Texto</h2>
         <fieldset id="field1">
             <legend class="legenda"><b>Informações</b></legend>
 
             <section id="section1">
 
-                <h2>Manipulação de texto</h2>
+                <h2 class="h2-field">Manipulação de texto</h2>
                 <p>Utilizando certas tags nós podemos manipular o texto</p>
                 <p>Podemos utiliza-las para que o leitor foque naquela palavra especifica</p>
                 <p>Utilizamos tags como <strong>&ltstrong&gt</strong> para colocar peso nas palavras e fazer com que o leitor preste mais atenção nela</p>
                 <p>Ou também utilizamos tags como &lth1&gt para definirmos importância de texto</p>
                 <p>HTML em si é apenas o <strong>bruto</strong> do site(texto, botões e etc..)</p>
                 <p>Abaixo eu deixei algumas tags com este objetivo</p>
-            </section>
-
         </fieldset>
         <div id="a">Passe o mouse sobre o texto acima para ver melhor</div>
+        </section>
+        <section class="sec bord1">
 
-        <section id="section2">
-            <table>
+            <table class="table">
 
                 <caption><b>Tags para formatação de texto</b></caption>
                 <colgroup>
                     <col span="2" style="background-color:white">
-                    <col style="background-color:rgb(213, 213, 213);transform: rotateX(23deg);">
                 </colgroup>
-                <tr>
+                <tr class="bordinha">
                     <th>Texto</th>
                     <th>Tag</th>
                     <th>Resultado</th>
                 </tr>
-                <tr>
+                <tr class="bordinha">
                     <td>Texto em negrito</td>
                     <td>Tag &ltb&gt</td>
                     <td><b>Texto em negrito</b></td>
                 </tr>
-                <tr>
+                <tr class="bordinha">
                     <td>Texto import</td>
                     <td>Tag &ltstrong&gt</td>
                     <td><strong>Texto importante</strong> </td>
                 </tr>
-                <tr>
+                <tr class="bordinha">
                     <td>Texto em italico</td>
                     <td>Tag &lti&gt</td>
                     <td><i>Texto em italico</i></td>
                 </tr>
-                <tr>
+                <tr class="bordinha">
                     <td>Texto enfatizado</td>
                     <td>Tag &ltem&gt</td>
                     <td><em>Texto enfatizado</em></td>
                 </tr>
-                <tr>
+                <tr class="bordinha">
                     <td>Marca texto</td>
                     <td>Tag &ltmark&gt</td>
                     <td><mark>Marca texto</mark></td>
                 </tr>
-                <tr>
+                <tr class="bordinha">
                     <td>Diminuir texto</td>
                     <td>Tag &ltsmall&gt</td>
                     <td><small>Diminuir texto</small></td>
                 </tr>
-                <tr>
+                <tr class="bordinha">
                     <td>Texto deletado</td>
                     <td>Tag &ltdel&gt</td>
                     <td><del>Texto deletado</del></td>
                 </tr>
-                <tr>
+                <tr class="bordinha">
                     <td>Texto com sobrelinha</td>
                     <td>Tag &ltins&gt</td>
                     <td><ins>Texto com sobrelinha</ins></td>
                 </tr>
-                <tr>
+                <tr class="bordinha">
                     <td>Texto abaixo da linha</td>
                     <td>Tag &ltsub&gt</td>
                     <td><sub>Texto abaixo da linha</sub></td>
                 </tr>
-                <tr>
+                <tr class="bordinha">
                     <td>Texto acima da linha</td>
                     <td>Tag &ltsup&gt</td>
                     <td><sup>Texto acima da linha</sup></td>
                 </tr>
             </table>
 
-            <fieldset id="field2">
+            <fieldset class="field">
                 <legend class="legenda"><b>Formatação de texto</b></legend>
-                <h2>Tags de formatação de texto</h2>
+                <h2 class="h2-field">Tags de formatação de texto</h2>
                 <p>Ao lado nós temos as tags de formatação de texto.</p>
                 <p>Como explicado <a class="redirecio" href="#main"><b>acima.</b></a></p>
                 <p>Existem diversas maneiras de usa-las.</p>
@@ -108,12 +109,12 @@
 
             </fieldset>
         </section>
-        <section id="section3">
-            <table style="position:relative; top: 10px;">
+        <section class="sec bord1">
+            <table class="table">
                 <caption><b>Tags de Header</b></caption>
                 <colgroup>
                     <col span="2" style="background-color: white;">
-                    <col style="background-color: rgb(213, 213, 213);">
+
                 </colgroup>
                 <tr>
                     <th>Texto</th>
@@ -163,14 +164,75 @@
                     </td>
                 </tr>
             </table>
-            <fieldset id="field3">
-                <legend class="legenda">Header</legend>
-                <h2>Tags de Header</h2>
+            <fieldset class="field">
+                <legend class="legenda"><b>Header</b></legend>
+                <h2 class="h2-field">Tags de Header</h2>
                 <p>As tags de header são usadas comumente para definir a importância de uma sessão de texto</p>
                 <p>Indo de um nível de 1 a 6, cada nível tem seu tamanho e define a importância do texto</p>
                 <p>Sendo &lth1&gt o mais importante e utilizado apenas, geralmente, apenas uma vez</p>
                 <p>Ele dá o titulo do site quando pesquisamos em algum mecanismo de pesquisa</p>
 
+            </fieldset>
+        </section>
+        <section class="sec" id="sec2">
+            <h2 class="h2">Criação do texto da página</h2>
+            <fieldset class="field">
+                <legend class="legenda"><b>Texto</b></legend>
+                <h2 class="h2-field">Texto da página</h2>
+                <p>No html nós temos tags para criar o texto da página</p>
+                <p>Coisas como parágrafos, quebra de linha e etc...</p>
+                <p>Com essas tags nós fazemos o bruto da página podendo modifica-lá depois com o uso do css</p>
+                <p>É uma boa prática sempre fazer o bruto primeiro antes do css para ter uma visão maior do que fazer</p>
+
+            </fieldset>
+        </section>
+        <section class="sec bord2">
+            <table class="table">
+                <tr>
+                    <th>Tag</th>
+                    <th>Explicação</th>
+                </tr>
+                <tr>
+                    <td>&ltp&gt</td>
+                    <td>Cria um parágrafo</td>
+                </tr>
+                <tr>
+                    <td>&ltpre&gt</td>
+                    <td>Mantém os espaços do texto (quebra de linha e etc...)</td>
+                </tr>
+                <tr>
+                    <td>&ltbr&gt</td>
+                    <td>Quebra uma linha</td>
+                </tr>
+                <tr>
+                    <td>&lthr&gt</td>
+                    <td>Adiciona uma linha de ponta a ponta no site</td>
+                </tr>
+                <tr>
+                    <td>&lta&gt</td>
+                    <td>Adiciona um link a palavra ou frase especificada</td>
+                </tr>
+                <tr>
+                    <td>&ltimg&gt</td>
+                    <td>Coloca uma imagem no site</td>
+                </tr>
+                <tr>
+                    <td>&ltblockquote&gt</td>
+                    <td>Adiciona aspas (quote) a um pedaço de texto</td>
+                </tr>
+                <tr>
+                    <td>&ltq&gt</td>
+                    <td>Adiciona aspas a palavra ou frase especificada</td>
+                </tr>
+            </table>
+            <fieldset class="field">
+                <legend class="legenda"><b>Texto da página</b></legend>
+                <h2 class="h2-field">Sobre as tags ao lado</h2>
+                <p>Podemos ver que temos bastante tags para manipular o nosso texto bruto html</p>
+                <p>Devemos sempre utiliza-los para tornar o código legivel e pelo uso em si das tags</p>
+                <p>Todas elas tem seus aspectos próprios, então devemos pensar bem ao utilizar uma tag</p>
+                <p>A tag &ltp&gt e &ltpre&gt são bem parecidas na superficie, porém elas não tem o mesmo objetivo</p>
+                <p>Vantagens e descantagens, todas as tags tem alguma delas, então devo usar com sabedoria</p>
             </fieldset>
         </section>
 

@@ -2,27 +2,31 @@ document.getElementById("navizinha").innerHTML =
     '<h1 title = "Voltar para o inicio" class = "header-h1"> <a href="/index.html">Andrew Silva</a></h1>' +
     '<nav class="navi">' +
     '<ul class="aaa">' +
-    '<li class="dropdown"><a class="dropbtn">HTML</a>' +
+    '<li class="dropdown dropajeita"><a class="dropbtn">HTML</a>' +
     '<div style="margin: -7px;margin-left: -6px;" class="dropdown-content jlista ">' +
-    '<a href="/subpage/htmlsubpage/tags.html">TAGS</a>' +
-    '<a href="/subpage/htmlsubpage/midia.html"> MIDIA</a>' +
+    '<a href="/subpage/htmlsubpage/inicio.html">Inicio</a>' +
+    '<a href="/subpage/htmlsubpage/tags.html">Tags</a>' +
+    '<a href="/subpage/htmlsubpage/midia.html"> Midia</a>' +
     '</div>' +
     '</li>' +
-    '<li class="dropdown"><a class="dropbtn">CSS</a>' +
+    '<li class="dropdown dropajeita"><a class="dropbtn">CSS</a>' +
     '<div class="dropdown-content jlista">' +
-    '<a href="#">a</a>' +
+    '<a href="/subpage/csssubpage/inicio.html">Inicio</a>' +
     '</div>' +
     '</li>' +
-    '<li class="dropdown"><a class="dropbtn">JavaScript</a>' +
+    '<li id="jsajeita" class="dropdown"><a class="dropbtn">JavaScript</a>' +
     '<div id="jsl" style="margin: -6px;" class="dropdown-content jlista">' +
-    '  <a>USOS</a>' +
-    ' </div>' +
-    ' </li>' +
-    '<li class="dropdown"><a class="dropbtn">Python</a>' +
+    '<a href="/subpage/jssubpage/inicio.html">Inicio</a>' +
+    '<a>Usos</a>' +
+    '</div>' +
+    '</li>' +
+    '<li class="dropdown dropajeita"><a class="dropbtn">Python</a>' +
     '<div class="dropdown-content jlista ">' +
-    '<a href="/subpage/pythonsubpage/comandos.html">COMANDOS</a>' +
+    '<a href="/subpage/pythonsubpage/inicio.html">Inicio</a>' +
+    '<a href="/subpage/pythonsubpage/comandos.html">Comandos</a>' +
     '</div>' +
     "</li>" +
+    '<li class="dropdown"><a href="/sobre.html" class="dropbtn">Sobre</a></li>' +
     " </ul>" +
     "</nav>";
 
