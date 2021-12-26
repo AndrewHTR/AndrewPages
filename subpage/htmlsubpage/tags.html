@@ -3,28 +3,176 @@
 
 <head>
     <link rel="icon" href="/imagens/icone.ico">
-    <link rel="stylesheet" href="./csshtml/tags.css">
-    <script src="./jshtml/tags.js" async></script>
-    <script src="/mynavloader.js" async defer></script>
-    <script src="/hour.js" async defer></script>
-
     <title>Tags</title>
+    <link rel="stylesheet" href="./csshtml/tags.css">
+    <script src="jshtml/texto.js" async></script>
+    <script src="/mynavloader.js" async></script>
 </head>
 
-<body style="font-family: Arial, Helvetica, sans-serif;background-color: rgb(22, 22, 22);color: white;">
+<body>
     <header id="navizinha" class="header">
         <!-- Usando o mynavloader.js para carregar a header com navbar-->
-
     </header>
-    <main class="main">
-        <h2 id="subtitulo">Tags</h2>
-        <section class="section">
+    <main id="main" class="main">
+        <h2>Primeiro falaremos sobre a Manipulação de Texto</h2>
+        <fieldset id="field1">
+            <legend class="legenda"><b>Informações</b></legend>
 
+            <section id="section1">
+
+                <h2>Manipulação de texto</h2>
+                <p>Utilizando certas tags nós podemos manipular o texto</p>
+                <p>Podemos utiliza-las para que o leitor foque naquela palavra especifica</p>
+                <p>Utilizamos tags como <strong>&ltstrong&gt</strong> para colocar peso nas palavras e fazer com que o leitor preste mais atenção nela</p>
+                <p>Ou também utilizamos tags como &lth1&gt para definirmos importância de texto</p>
+                <p>HTML em si é apenas o <strong>bruto</strong> do site(texto, botões e etc..)</p>
+                <p>Abaixo eu deixei algumas tags com este objetivo</p>
+            </section>
+
+        </fieldset>
+        <div id="a">Passe o mouse sobre o texto acima para ver melhor</div>
+
+        <section id="section2">
+            <table>
+
+                <caption><b>Tags para formatação de texto</b></caption>
+                <colgroup>
+                    <col span="2" style="background-color:white">
+                    <col style="background-color:rgb(213, 213, 213);transform: rotateX(23deg);">
+                </colgroup>
+                <tr>
+                    <th>Texto</th>
+                    <th>Tag</th>
+                    <th>Resultado</th>
+                </tr>
+                <tr>
+                    <td>Texto em negrito</td>
+                    <td>Tag &ltb&gt</td>
+                    <td><b>Texto em negrito</b></td>
+                </tr>
+                <tr>
+                    <td>Texto import</td>
+                    <td>Tag &ltstrong&gt</td>
+                    <td><strong>Texto importante</strong> </td>
+                </tr>
+                <tr>
+                    <td>Texto em italico</td>
+                    <td>Tag &lti&gt</td>
+                    <td><i>Texto em italico</i></td>
+                </tr>
+                <tr>
+                    <td>Texto enfatizado</td>
+                    <td>Tag &ltem&gt</td>
+                    <td><em>Texto enfatizado</em></td>
+                </tr>
+                <tr>
+                    <td>Marca texto</td>
+                    <td>Tag &ltmark&gt</td>
+                    <td><mark>Marca texto</mark></td>
+                </tr>
+                <tr>
+                    <td>Diminuir texto</td>
+                    <td>Tag &ltsmall&gt</td>
+                    <td><small>Diminuir texto</small></td>
+                </tr>
+                <tr>
+                    <td>Texto deletado</td>
+                    <td>Tag &ltdel&gt</td>
+                    <td><del>Texto deletado</del></td>
+                </tr>
+                <tr>
+                    <td>Texto com sobrelinha</td>
+                    <td>Tag &ltins&gt</td>
+                    <td><ins>Texto com sobrelinha</ins></td>
+                </tr>
+                <tr>
+                    <td>Texto abaixo da linha</td>
+                    <td>Tag &ltsub&gt</td>
+                    <td><sub>Texto abaixo da linha</sub></td>
+                </tr>
+                <tr>
+                    <td>Texto acima da linha</td>
+                    <td>Tag &ltsup&gt</td>
+                    <td><sup>Texto acima da linha</sup></td>
+                </tr>
+            </table>
+
+            <fieldset id="field2">
+                <legend class="legenda"><b>Formatação de texto</b></legend>
+                <h2>Tags de formatação de texto</h2>
+                <p>Ao lado nós temos as tags de formatação de texto.</p>
+                <p>Como explicado <a class="redirecio" href="#main"><b>acima.</b></a></p>
+                <p>Existem diversas maneiras de usa-las.</p>
+                <p>Podemos colocar peso nela com <strong>&ltstrong&gt</strong></p>
+                <p>Ou até deixar o texto em itálico com &lt<i>i</i>&gt como está no exemplo a esquerda</p>
+
+            </fieldset>
         </section>
-        <section class="section">
+        <section id="section3">
+            <table style="position:relative; top: 10px;">
+                <caption><b>Tags de Header</b></caption>
+                <colgroup>
+                    <col span="2" style="background-color: white;">
+                    <col style="background-color: rgb(213, 213, 213);">
+                </colgroup>
+                <tr>
+                    <th>Texto</th>
+                    <th>Tag</th>
+                    <th>Resultado</th>
+                </tr>
+                <tr>
+                    <td>Header 1</td>
+                    <td>Tag &lth1&gt</td>
+                    <td>
+                        <h1>Header 1</h1>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Header 2</td>
+                    <td>Tag &lth2&gt</td>
+                    <td>
+                        <h2>Header 2</h2>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Header 3</td>
+                    <td>Tag &lth3&gt</td>
+                    <td>
+                        <h3>Header 3</h3>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Header 4</td>
+                    <td>Tag &lth4&gt</td>
+                    <td>
+                        <h4>Header 4</h4>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Header 5</td>
+                    <td>Tag &lth5&gt</td>
+                    <td>
+                        <h5>Header 5</h5>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Header 6</td>
+                    <td>Tag &lth6&gt</td>
+                    <td>
+                        <h6>Header 6</h6>
+                    </td>
+                </tr>
+            </table>
+            <fieldset id="field3">
+                <legend class="legenda">Header</legend>
+                <h2>Tags de Header</h2>
+                <p>As tags de header são usadas comumente para definir a importância de uma sessão de texto</p>
+                <p>Indo de um nível de 1 a 6, cada nível tem seu tamanho e define a importância do texto</p>
+                <p>Sendo &lth1&gt o mais importante e utilizado apenas, geralmente, apenas uma vez</p>
+                <p>Ele dá o titulo do site quando pesquisamos em algum mecanismo de pesquisa</p>
 
+            </fieldset>
         </section>
-
 
     </main>
     <footer id="aaa" class="footer">

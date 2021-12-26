@@ -4,7 +4,6 @@ document.getElementById("navizinha").innerHTML =
     '<ul class="aaa">' +
     '<li class="dropdown"><a class="dropbtn">HTML</a>' +
     '<div style="margin: -7px;margin-left: -6px;" class="dropdown-content jlista ">' +
-    '<a href="/subpage/htmlsubpage/texto.html">TEXTO</a>' +
     '<a href="/subpage/htmlsubpage/tags.html">TAGS</a>' +
     '<a href="/subpage/htmlsubpage/midia.html"> MIDIA</a>' +
     '</div>' +
@@ -32,3 +31,27 @@ document.getElementById("aaa").innerHTML = '<span id="criador" class="horario">C
     '<div class="horario">' +
     '<strong><span id="sa"></span></strong>' +
     '</div>'
+
+var today = new Date();
+document.getElementById("sa").innerText = "Horário: " + today.toLocaleTimeString();
+
+function minhaFunca() {
+    var today = new Date();
+    document.getElementById("sa").innerText = "Horário: " + today.toLocaleTimeString();
+}
+
+
+var t = setInterval(minhaFunca, 1000)
+window.onscroll = function() { navFunc() };
+
+var navbar = document.getElementById("navizinha");
+
+var sticky = navbar.offsetTop;
+
+function navFunc() {
+    if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+    } else {
+        navbar.classList.remove("sitcky")
+    }
+}
