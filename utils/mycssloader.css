@@ -11,6 +11,7 @@
         font-family: "Poppins", sans-serif;
         background-color: rgb(22, 22, 22);
         color: white;
+        font-size: 1.4vw
     }
     
     .header {
@@ -23,12 +24,15 @@
         background-color: rgba(7, 7, 7, 0.59);
         padding: 0.0vh;
         font-size: 1.3vw;
-        height: 9vh;
+        height: 7.969vh;
+        top: 0;
+        width: 100%;
+        position: fixed;
     }
     
     .header-h1 {
         position: absolute;
-        top: 0%;
+        top: -0.5vh;
         left: 2%;
         font-size: 300%;
         cursor: pointer;
@@ -38,7 +42,7 @@
     .header-h1 a {
         text-decoration: none;
         color: white;
-        transition: all .3s ease-in-out;
+        transition: .3s linear;
         transform-origin: center;
     }
     
@@ -72,20 +76,16 @@
         padding-left: 55vw;
     }
     
-    .dropajeita {
-        padding: 8px 120px;
-    }
-    
     .dropdown {
         background-color: rgba(7, 7, 7, 0);
-        padding: 0.6vw 0.3vw;
+        padding: 1vh 0.6vw;
         font-size: 1.2vw;
-        transition: all .3s ease-in-out;
+        transition: .3s linear;
         transform-origin: center;
         width: 25%;
-        top: 0;
         font-size: 1.2vw;
-        right: 0vw;
+        right: 1vw;
+        top: -0.5vh;
     }
     
     .dropdown:hover {
@@ -97,9 +97,10 @@
         display: inline-block;
         color: white;
         text-align: center;
-        padding: 10px 18.8px;
+        padding: 1.3vh 2vw;
         text-decoration: none;
-        margin: 4px;
+        font-size: 1.2vw;
+        margin: 0;
     }
     
     .dropbtn:hover {
@@ -111,21 +112,19 @@
         position: absolute;
         background-color: rgb(255, 255, 255);
         box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0, 0.2);
-        z-index: 1;
+        z-index: 2;
         min-width: 6.6vw;
         font-size: 1.2vw;
-        margin: -7vw;
-        top: 5vw;
-        align-items: center;
-        text-align: center;
+        top: 7.8vh;
+        margin-left: -0.57vw;
     }
     
     .dropdown-content a {
         color: black;
-        padding: 12px 16px;
+        padding: 2vh 2.5vw;
         display: block;
-        text-align: left;
-        transition: all .3s ease-in-out;
+        text-align: center;
+        transition: .3s linear;
         transform-origin: center;
     }
     
@@ -143,10 +142,6 @@
         justify-content: space-around;
     }
     
-    #jsl a {
-        min-width: 8.3vw;
-    }
-    
     .sticky {
         position: fixed;
         top: 0;
@@ -159,7 +154,8 @@
     }
     
     .jlista {
-        top: 4.9vw;
+        top: 5vw;
+        margin: 0;
     }
     
     .footer {
@@ -171,7 +167,7 @@
         gap: -12px;
         font-family: "Poppins", sans-serif;
         background-color: rgb(16, 15, 15);
-        padding-bottom: 80px;
+        padding-bottom: 10vh;
         width: 100%;
     }
     
@@ -190,7 +186,7 @@
     
     #criador a {
         color: white;
-        transition: all .3s ease-in-out;
+        transition: .3s linear;
         transform-origin: center;
     }
     
@@ -205,7 +201,7 @@
         position: relative;
         right: 6.2%;
         font-family: "Poppins", sans-serif;
-        transition: all .3s ease-in-out;
+        transition: .3s linear;
         transform-origin: center;
     }
     
@@ -218,7 +214,7 @@
     }
     
      ::-webkit-scrollbar {
-        width: 18px;
+        width: 1vw;
         background-color: rgba(7, 7, 7, 0.59)
     }
     
@@ -252,11 +248,11 @@
     
     .field {
         padding: 10px;
-        width: 50vw;
+        width: 90%;
         border: 1px solid black;
         border-radius: 3px;
         background-image: linear-gradient(to top, rgb(58, 58, 58), rgb(22, 22, 22));
-        transition: .3s ease;
+        transition: .3s linear;
         transform-origin: center;
         display: flex;
         flex-direction: column;
@@ -264,8 +260,8 @@
     }
     
     .field:hover {
-        font-size: 1.5vw;
-        width: 80%;
+        font-size: 1.8vw;
+        width: 110%;
     }
     
     .sec {
