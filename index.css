@@ -2,34 +2,30 @@
     list-style-type: disc;
     display: flex;
     flex-direction: column;
-    gap: 20px;
-    font-size: 1.3vw;
+    gap: 1vw;
 }
 
-#lista1 {
-    padding-right: 4vw;
-}
-
-#lista2 {
-    padding-right: 50.9vw;
-    list-style-type: disc;
+#prea::before {
+    content: "";
+    position: absolute;
+    margin-left: -2%;
+    margin-top: -0.5%;
+    width: 60%;
+    height: 20%;
+    color: rgba(128, 0, 128, 0.172);
+    background-color: rgba(150, 151, 151, 0.248);
 }
 
 #prea {
-    font-size: 1.3vw;
+    width: 60%;
     font-family: "Poppins", sans-serif;
 }
 
-#subtitulo {
-    font-size: 2.5vw;
-}
-
-#field {
-    width: 50%;
-}
-
 #uli {
-    padding-left: 80px;
+    padding-left: 18.54vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 #h2-f {
@@ -39,8 +35,8 @@
 
 #sec {
     width: 98.8vw;
-    padding-top: 60px;
-    border-top: 1px solid white;
+    padding-top: 0vh;
+    border-top: 0.1vw solid white;
 }
 
 section {
