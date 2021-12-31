@@ -21,11 +21,15 @@ document.getElementById("navizinha").innerHTML =
     '</div>' +
     '</li>' +
     '<li class="dropdown"><a class="dropbtn">Python</a>' +
-    '<div class="dropdown-content ">' +
+    '<div class="dropdown-content">' +
     '<a href="/subpage/pythonsubpage/inicio.html">Inicio</a>' +
-
     '</div>' +
     "</li>" +
+    '<li class="dropdown"><a class="dropbtn">Java</a>' +
+    '<div class="dropdown-content ">' +
+    '<a href="/subpage/javasubpage/inicio.html">Inicio</a>' +
+    '</div>' +
+    '</li>' +
     '<li class="dropdown"><a href="/sobre.html" class="dropbtn">Sobre</a></li>' +
     " </ul>" +
     "</nav>";

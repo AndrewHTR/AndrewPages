@@ -74,7 +74,7 @@
         list-style-type: none;
         margin: 0;
         overflow: hidden;
-        padding-left: 55vw;
+        padding-left: 46.1vw;
     }
     
     .dropdown {
@@ -85,7 +85,6 @@
         transform-origin: center;
         width: 25%;
         font-size: 1.2vw;
-        right: 1vw;
         top: -0.5vh;
     }
     
