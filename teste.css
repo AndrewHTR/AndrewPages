@@ -1,0 +1,18 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.boto {
+    font-size: 8px;
+    background-image: linear-gradient(to right, rgba(25, 123, 189, 0.576), rgba(42, 59, 155, 0.618));
+    border: 0.4px solid black;
+    padding: 1px;
+    box-shadow: 1px 1px 1px 0px;
+}
+
+.boto:hover {
+    background-color: white;
+}

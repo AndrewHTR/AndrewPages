@@ -11,7 +11,7 @@
         font-family: "Poppins", sans-serif;
         background-color: rgb(22, 22, 22);
         color: white;
-        font-size: 2.8vh
+        font-size: 2.8vh;
     }
     
     .header {
@@ -24,7 +24,7 @@
         background-color: rgba(7, 7, 7, 0.59);
         padding: 0.0vh;
         font-size: 1.3vw;
-        height: 4.4vw;
+        height: 4.7vw;
         top: 0;
         width: 100%;
         position: fixed;
@@ -53,14 +53,14 @@
     
     .main {
         margin: 30px;
-        padding-top: 20px;
+        padding-top: 12vh;
         display: flex;
         flex-direction: column;
         align-items: center;
         gap: 5vh;
         text-align: left;
         position: static;
-        padding-bottom: 19.7px;
+        padding-bottom: 8vh;
     }
     
     .subti {
@@ -74,7 +74,7 @@
         list-style-type: none;
         margin: 0;
         overflow: hidden;
-        padding-left: 46.1vw;
+        padding-left: 38.1vw;
     }
     
     .dropdown {
@@ -97,11 +97,12 @@
         display: inline-block;
         color: white;
         text-align: center;
-        padding: 0.8vw 2vw;
+        padding: 0.69vw 1.5vw;
         text-decoration: none;
         font-size: 1.2vw;
         margin: 0;
         margin-bottom: 0.6vw;
+        margin-top: 0.6vh;
     }
     
     .dropbtn:hover {
@@ -117,6 +118,7 @@
         min-width: 6.6vw;
         font-size: 1.2vw;
         margin-left: -0.57vw;
+        margin-top: 0.5vh;
     }
     
     .dropdown-content a {
@@ -149,7 +151,7 @@
     }
     
     .main {
-        padding-top: 4vw;
+        padding-top: vw;
         margin-bottom: 5vh;
     }
     
@@ -166,7 +168,7 @@
         justify-content: space-around;
         font-family: "Poppins", sans-serif;
         background-color: rgb(16, 15, 15);
-        padding-bottom: 15vh;
+        padding-bottom: 10vh;
         width: 100%;
         z-index: 0;
     }
@@ -272,6 +274,16 @@
         justify-content: space-evenly;
         align-items: center;
         min-width: 80%;
+    }
+    
+    .sec2 {
+        padding-top: 2vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        max-width: 80%;
+        gap: 5vh;
     }
     
     .art {
