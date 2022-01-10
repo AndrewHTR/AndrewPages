@@ -108,8 +108,20 @@ caption {
 
 #listas {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
+    list-style-type: none;
+    background-color: rgb(16, 16, 16);
+    border-radius: 12px;
+    padding: 8px;
+}
+
+#listas a {
+    color: rgb(191, 77, 248);
+}
+
+#listas a:hover {
+    color: rgb(156, 16, 191);
 }
 
 #section1 {

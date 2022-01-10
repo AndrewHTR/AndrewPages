@@ -16,23 +16,64 @@
 
     </header>
     <main class="main">
-        <h1 style="font-size: 40px;">Tipos de midia:</h1>
-        <section class="sec">
-            <article class="art">
-                <h2>Existe uma tag para imagens. Com ela podemos adicionar uma imagens ao nosso site:</h2>
-                <p><img src="/imagens/aa.webp" alt="Imagem"></p>
+        <h2 style="font-size: 5vh;">Tipos de midia</h1>
+            <section class="sec">
+                <article class="art">
 
-                <h2>Alem de imagens, tambem existe uma tag para videos.</h2>
-                <h3>Podemos pegar um arquivo de video do nosso diretorio local e colocar em nosso site</h3>
-                <video width="560" height="315" controls>
-        <source src="/videos/Pizza_hipotetica_ritmica.mp4" type="video/mp4">
-    </video>
-                <h2>Assim como também podemos pegar um video do youtube</h2>
-                <iframe width="560" height="315" style="border: none;" src="https://www.youtube.com/embed/__QdAxqBi5Y">
+                    <h2>Nesta página eu irei falar sobre as midias que podem ser utilizadas no HTML</h2>
+                    <br>
+                    <p>Abaixo vemos um exemplo disso... Nele eu utilizei a tag de imagem para adicionar uma imagem ao site.</p>
+                    <figure>
+                        <img src="/imagens/sdad.png" alt="Imagem">
+                        <figcaption><i>Exemplo</i></figcaption>
+                    </figure>
+                    <p>Uma imagem pode ser colocada á partir da tag de imagem a qual pode ser chamada por &ltimg&gt</p>
+                    <p>Para adicionarmos a imagem nós primeiro chamamos a tag &ltimg src="<i>diretorio</i>"&gt é um bom hábito adicionar o alt="" após o src para descrever a imagem, isso é utilizado para acessibilidade e para mostrar um texto ao invés da
+                        imagem caso a conexão seja ruim. No final o codigo fica &ltimg src="<i>diretorio</i>" alt="
+                        <i>descrição</i>"&gt</p>
+                    <figure>
+                        <img src="/imagens/sdad.png" alt="imagem" width="120px" height="120px">
+                        <figcaption><i>Exemplo</i></figcaption>
+                    </figure>
+                    <p>Dentro da tag img também podemos adicionar o width="" e height="" para manipular o tamanho da imagem</p>
+
+                </article>
+            </section>
+            <section class="sec">
+                <article class="art">
+                    <h2>Exemplos para tags de video</h2>
+                    <p>Utilizando a tag &ltvideo&gt&lt/video&gt nós podemos adicionar um video do nosso diretorio local.</p>
+                    <p>Na tag de video nós adicionamos o width="" e height="" da mesma forma da imagem e em seguida um controls para adicionar os botões de controle do video.</p>
+                    <p>No meio da tag de video nós adicionamos a tag &ltsource&gt para adicionamos o nosso video. Ele funciona da mesma forma que o img, usamos o src para adicionar o diretorio, mas aqui em video é um bom habito adicionar o tipo de arquivo
+                        para que o navegador leia corretamente. No final o codigo fica com algo como:</p>
+                    <pre>
+&ltvideo width="pixels" height="pixels" controls&gt
+    &ltsource src="<i>diretorio</i>" type="video/mp4"&gt
+&lt/video&gt
+                            
+                        </pre>
+                    <figure>
+                        <video width="560" height="315" controls>
+                        <source src="/videos/Pizza_hipotetica_ritmica.mp4" type="video/mp4">
+                    </video>
+                        <figcaption><i>Exemplo</i></figcaption>
+                    </figure>
+                    <p>Assim como podemos pegar um video local, também podemos pegar um video do youtube por exemplo.</p>
+                    <figure>
+                        <iframe width="560" height="315" style="border: none;" src="https://www.youtube.com/embed/__QdAxqBi5Y">
         
-    </iframe>
-            </article>
-        </section>
+                    </iframe>
+                        <figcaption><i>Exemplo</i></figcaption>
+                    </figure>
+                    <p>Nele utilizamos a tag &ltiframe&gt que cria uma espécie de instância de página dentro da sua página, depois apenas colocamos o src do video como é no video local por meio de uma embed e desta forma teremos colocado um video externo
+                        em nosso site.</p>
+                    <p>Exemplo do codigo:</p>
+                    <pre>
+&ltiframe width="560" height="315" src="https://www.youtube.com/embed/__QdAxqBi5Y"&gt
+        
+&lt/iframe&gt</pre>
+                </article>
+            </section>
     </main>
     <footer id="aaa" class="footer">
 

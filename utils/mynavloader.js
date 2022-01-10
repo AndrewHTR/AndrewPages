@@ -2,7 +2,7 @@ document.getElementById("navizinha").innerHTML =
     '<h1 title = "Voltar para o inicio" class = "header-h1"> <a href="/index.html">Andrew Silva</a></h1>' +
     '<nav class="navi">' +
     '<ul class="top">' +
-    '<li><a>Linguagens</a>' +
+    '<li><a>Tecnologias</a>' +
     '<ul class="second">' +
     '<li><a>HTML</a>' +
     '<ul class="third">' +
@@ -38,7 +38,7 @@ document.getElementById("navizinha").innerHTML =
     "</nav>";
 
 document.getElementById("aaa").innerHTML = '<span id="criador" class="horario">Criado por: <a href="https://github.com/AndrewHTR"><strong>Andrew Kauã da Silva Santos</strong></a></span>' +
-    '<a id="argue" href="https://www.youtube.com/watch?v=__QdAxqBi5Y&t "><ins><b><h2 class="h2-footer">It may seem difficult at first, but everything is difficult at first.</h2></b></ins></a>' +
+    '<a id="argue" href="https://www.youtube.com/watch?v=__QdAxqBi5Y&t "><ins><b><h2 class="h2-footer">Don&#39t shy away from opportunity just because it&#39s something new.</h2></b></ins></a>' +
     '<div class="horario">' +
     '<strong><span id="sa"></span></strong>' +
     '</div>'

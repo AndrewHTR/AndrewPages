@@ -308,8 +308,9 @@
         display: flex;
         flex-direction: column;
         text-align: left;
-        width: 70%;
+        width: 80%;
         gap: 2vh;
+        align-items: center;
     }
     
     .art h2 {
