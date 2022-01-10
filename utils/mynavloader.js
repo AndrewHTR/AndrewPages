@@ -1,41 +1,40 @@
 document.getElementById("navizinha").innerHTML =
     '<h1 title = "Voltar para o inicio" class = "header-h1"> <a href="/index.html">Andrew Silva</a></h1>' +
     '<nav class="navi">' +
-    '<ul class="aaa">' +
-    '<li class="dropdown"><a class="dropbtn">HTML</a>' +
-    '<div class="dropdown-content ">' +
-    '<a href="/subpage/htmlsubpage/inicio.html">Inicio</a>' +
-    '<a href="/subpage/htmlsubpage/tags.html">Tags</a>' +
-    '<a href="/subpage/htmlsubpage/semantica.html">Semântica</a>' +
-    '<a href="/subpage/htmlsubpage/forms.html">Forms</a>' +
-    '<a href="/subpage/htmlsubpage/midia.html"> Midia</a>' +
-    '</div>' +
+    '<ul class="top">' +
+    '<li><a>Linguagens</a>' +
+    '<ul class="second">' +
+    '<li><a>HTML</a>' +
+    '<ul class="third">' +
+    '<li><a href="/subpage/htmlsubpage/inicio.html">Inicio</a></li>' +
+    '<li><a href="/subpage/htmlsubpage/tags.html">Tags</a></li>' +
+    '<li><a href="/subpage/htmlsubpage/semantica.html">Semântica</a></li>' +
+    '<li><a href="/subpage/htmlsubpage/forms.html">Forms</a></li>' +
+    '<li><a href="/subpage/htmlsubpage/midia.html">Midia</a></li>' +
+    '</ul></li>' +
+    '<li><a>CSS</a>' +
+    '<ul class="third">' +
+    '<li><a href="/subpage/csssubpage/inicio.html">Inicio</a></li>' +
+    '</ul></li>' +
+    '<li><a>JavaScript</a>' +
+    '<ul class="third">' +
+    '<li><a href="/subpage/jssubpage/inicio.html">Inicio</a></li>' +
+    '</ul></li>' +
+    '<li><a>Python</a>' +
+    '<ul class="third">' +
+    '<li><a href="/subpage/pythonsubpage/inicio.html">Inicio</a></li>' +
+    '</ul></li>' +
+    '<li><a>Java</a>' +
+    '<ul class="third">' +
+    '<li><a href="/subpage/javasubpage/inicio.html">Inicio</a></li>' +
+    '</ul></li>' +
+    '</ul></li>' +
+    '<li><a href="/teste.html">Testes</a></li>' +
+    '<li><a href="/sobre.html">Sobre</a>' +
     '</li>' +
-    '<li class="dropdown"><a class="dropbtn">CSS</a>' +
-    '<div class="dropdown-content">' +
-    '<a href="/subpage/csssubpage/inicio.html">Inicio</a>' +
-    '</div>' +
+    '</ul>' +
     '</li>' +
-    '<li class="dropdown"><a class="dropbtn">JavaScript</a>' +
-    '<div class="dropdown-content">' +
-    '<a href="/subpage/jssubpage/inicio.html">Inicio</a>' +
-    '<a>Usos</a>' +
-    '</div>' +
-    '</li>' +
-    '<li class="dropdown"><a class="dropbtn">Python</a>' +
-    '<div class="dropdown-content">' +
-    '<a href="/subpage/pythonsubpage/inicio.html">Inicio</a>' +
-    '</div>' +
-    "</li>" +
-    '<li class="dropdown"><a class="dropbtn">Java</a>' +
-    '<div class="dropdown-content ">' +
-    '<a href="/subpage/javasubpage/inicio.html">Inicio</a>' +
-    '</div>' +
-    '</li>' +
-    '<li class="dropdown"><a href="/teste.html" class="dropbtn">Testes</a>' +
-    '</li>' +
-    '<li class="dropdown"><a href="/sobre.html" class="dropbtn">Sobre</a></li>' +
-    " </ul>" +
+    '</ul>' +
     "</nav>";
 
 document.getElementById("aaa").innerHTML = '<span id="criador" class="horario">Criado por: <a href="https://github.com/AndrewHTR"><strong>Andrew Kauã da Silva Santos</strong></a></span>' +

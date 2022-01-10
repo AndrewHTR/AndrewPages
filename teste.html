@@ -5,15 +5,78 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="teste.css" media="screen">
+
     <script src="teste.js" async></script>
     <title>Salão de teste</title>
 </head>
 
 <body>
-    <button class="boto" onclick="document.getElementById('oi').innerHTML = 'aaa'">aperte aqui</button>
-    <p id="oi">oi</p>
-    <button class="boto" onclick="document.getElementById('oi').innerHTML = 'bbb'">ou aperte aqui</button>
-    <button class="boto" onclick="document.getElementById('oi').innerHTML = 'oi'">arrumar</button>
+    <header class="header">
+        <navi class="navizinha">
+            <ul class="top-level-menu">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li>
+                    <a href="#">Offices</a>
+                    <ul class="second-level-menu">
+                        <li><a href="#">Chicago</a>
+                            <ul class="third-level-menu">
+                                <li><a href="#">Information</a></li>
+                                <li><a href="#">Book a Meeting</a></li>
+                                <li><a href="#">dsadsadasdsa</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Los Angeles</a>
+                            <ul class="third-level-menu">
+                                <li><a href="#">Information</a></li>
+                                <li><a href="#">Book a Meeting</a></li>
+                                <li><a href="#">dsadsadasdsa</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">New York &gt</a>
+                            <ul class="third-level-menu">
+                                <li><a href="#">Information</a></li>
+                                <li><a href="#">Book a Meeting</a></li>
+                                <li><a href="#">Testimonials</a></li>
+                                <li><a href="#">Jobs</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Seattle</a>
+                            <ul class="third-level-menu">
+                                <li><a href="#">Information</a></li>
+                                <li><a href="#">Book a Meeting</a></li>
+                                <li><a href="#">dsadsadasdsa</a></li>
+                                <li><a href="#">Jobs</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </navi>
+    </header>
+    <main class="main">
+        <ul class="top">
+            <li><a>aaa</a></li>
+            <li><a>ss</a>
+                <ul class="second">
+                    <li><a>aa</a></li>
+                </ul>
+            </li>
+            <li><a>aa</a>
+                <ul class="second">
+                    <li><a>bbbb</a>
+                        <ul class="third">
+                            <li>aa</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </main>
+
+
 </body>
 
 </html>
