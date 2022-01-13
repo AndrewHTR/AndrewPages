@@ -15,6 +15,154 @@
     <header id="navizinha" class="header">
         <!-- Usando o mynavloader.js para carregar a header com navbar-->
     </header>
+    <main class="main">
+        <h2>Forms HTML</h2>
+
+        <article class="art">
+            <h3>Elemento <b>&ltinput&gt</b>:</h3>
+            <p>Para utilizarmos o form é um bom hábito usarmos a tag semântica <b>&ltform&gt</b> que vai servir como um container para os nossos forms.</p>
+            <p>A seguir, dentro da nossa tag &ltform&gt nós podemos usar as tags de input para que o usuario coloque suas informações dentro da mesma.</p>
+            <p>Cada tag de input segue com um tipo e o nome desse tipo, por <i>Exemplo:</i> <b>&ltinput type="text"&gt</b> que será um input de texto. Nós temos tipos variados de input.</p>
+            <p id="pxemplo">Sendo alguns desses tipos:</p>
+            <table>
+                <tr>
+                    <th>Tipo</th>
+                    <th>Resultado</th>
+                </tr>
+                <tr>
+                    <td>type="text"</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>type="radio"</td>
+                    <td><input type="radio"></td>
+
+                </tr>
+                <tr>
+                    <td>type="checkbox"</td>
+                    <td><input type="checkbox"></td>
+                </tr>
+                <tr>
+                    <td>type="submit"</td>
+                    <td><input type="submit"></td>
+                </tr>
+                <tr>
+                    <td>type="button"</td>
+                    <td><input type="button" value="button"></td>
+                </tr>
+            </table>
+            <h3>Elemento <b>&ltlabel&gt</b></h3>
+            <p>Junto dele podemos usar a tag <b>&ltlabel&gt&lt/label&gt</b> para darmos um nome e aumentar a area de aperto daquele input. Na verdade, também é comumente utilizado para ajudar os deficientes com a acessibilidade.</p>
+            <p>para usarmos a tag label primeiro nós damos um id ao input: <b>&ltinput type="checkbox" id="idcheckbox"&gt</b> e em seguida abrimos uma tag label <b>&ltlabel for="idradio"&gt</b>nome para o radio.<b>&lt/label&gt</b> desta forma dando o nome
+                ao input. O <b>for=" "</b> usado dentro da tag label serve para especificarmos a tag correta, tudo isso, claro, dentro da tag <b>&ltform&gt</b>.</p>
+            <p>Assim ficando:</p>
+            <form>
+                <input type="checkbox" id="idcheckbox">
+                <label for="idcheckbox">nome para o radio.</label>
+            </form>
+
+            <p>Para que consigamos "submitar" nossos dados do input, devemos adicionar um atributo nome a tag de input, assim tendo o direito de extrair os dados no nosso banco de dados.</p>
+        </article>
+        <h2>Form Attibutes</h2>
+        <article class="art">
+            <h3>Atributo Target:</h3>
+            <p>Dentro da tag de form nós temos o atributo de ações, este atributo pega os nossos dados e envia eles ao arquivo server-side extrair.</p>
+            <p>outro metodo que temos é o <b>target=" "</b> que é seguido de alguns valores e que também pode ser usado em links com a tag <b>&lta&gt</b>.</p>
+            <p><i>Exemplo:</i></p>
+            <table>
+                <tr>
+                    <th>Valor</th>
+                    <th>Descrição</th>
+                    <th>Resultado</th>
+                </tr>
+                <tr>
+                    <td>_blank</td>
+                    <td>Abre uma nova aba quando apertado</td>
+                    <td><a href="https://www.google.com/" target="_blank">_blank</a></td>
+                </tr>
+                <tr>
+                    <td>_self</td>
+                    <td>carrega página nova na atual</td>
+                    <td><a href="https://www.google.com/" target="_self">_self</a></td>
+                </tr>
+                <tr>
+                    <td>_parent</td>
+                    <td>página é aberto em um frame parente</td>
+                    <td>sem resultado.</td>
+                </tr>
+                <tr>
+                    <td>_top</td>
+                    <td>abre página na mesma janela</td>
+                    <td>sem resultado.</td>
+                </tr>
+                <tr>
+                    <td><i>nomedoframe</i></td>
+                    <td>abre página em um iframe especificado.</td>
+                    <td>sem resultado.</td>
+                </tr>
+            </table>
+            <h3>Outros metodos:</h3>
+            <p>Um metodo bem útil é o <b>autocomplete=" "</b>, com ele o navegador pega os dados digitados pelo usuario anteriormente e demonstra recomedanções para completar o input.</p>
+        </article>
+        <h2>Forms Elements</h2>
+        <article class="art">
+            <h3>Elemento &ltselect&gt:</h3>
+            <p>Com o elemento select nós podemos criar um dropdown com opções para formulario.</p>
+            <p>Para fazer isso, primeiro nós abrimos a tag <b>&ltselect&gt</b> e dentro dela abrimos as tag de opções cujo nome é <b>&ltoption&gt</b>. Para cada opção que tivermos no nosso dropdown, uma tag <b>&ltoption&gt</b> deve ser aberta.</p>
+            <p><i>Exemplo:</i></p>
+            <form>
+                <label for="sexo">Sexo:</label>
+                <select id="sexo">
+                    <option id="selecionar" value="selecionar" selected>Selecionar</option>
+                    <option value="masculino">Masculino</option>
+                    <option value="feminino">Feminino</option>
+                    <option value="naodizer">Prefiro não dizer</option>
+                </select>
+            </form>
+            <p>Dentro dele temos alguns atributos como:</p>
+            <p><b>size="<i>numero</i>"</b> para dizer quantas opções devem aparecer de uma vez.</p>
+            <p><b>multiple</b>, permite que o usuario escolha mais de uma opção.</p>
+            <h3>Elemento &lttextarea&gt:</h3>
+            <p>A tag <b>&lttextarea&gt</b> define uma area de texto para que o usuario digite, comumente usado em areas de mensagens ou reclamações.</p>
+            <p>podemos definir o tamanho dele utilizando os <b>rows="<i>numero</i>"</b> que diz quantas linhas (altura) serão mostradas e o <b>cols="<i>numero</i>"</b> que diz a largura do campo de texto.</p>
+            <p><i>Exemplo:</i></p>
+            <textarea rows="4" cols="20"></textarea>
+            <h3>Elemento &ltbutton&gt:</h3>
+            <p>Essa é um elemento simples. <b>&ltbutton&gt</b> ele é um botão que ativa uma ação ao apertarmos nele.</p>
+            <p>usando o atributo <b>onclick="<i>função</i>" podemos atribuir um evento ao botão.</b></p>
+            <p>Exemplo:</p>
+
+            <button id="butao" type="button" onclick="alert('Opa')">Botão</button>
+
+            <h3>Elemento <b>&ltfieldset&gt e &ltlegend&gt</b></h3>
+            <p>&ltfieldset&gt é usado para criar um espaço, geralmente usado para formularios. &ltlegend&gt se usa juntamente ao fieldset para dar um nome a aquele espaço.</p>
+            <p><i>Exemplo:</i></p>
+            <fieldset>
+                <legend>Nome</legend>
+                <p>Esse é o uso da tag &ltfieldset&gt</p>
+                <form>
+                    <label for="nomezada">Nome:</label><br>
+                    <input type="text" id="nomezada"><br>
+                    <label for="sobrenome">Sobrenome:</label><br>
+                    <input type="text" id="sobrenome">
+                </form>
+            </fieldset>
+            <p>geralmente é utilizado em formularios e páginas de cadastro e login.</p>
+            <h3>Elemento &ltdatalist&gt</h3>
+            <p>É bem parecido com o uso do label, porém aqui nós utilizamos ele para adicionar seleções em campo de texto com autocomplete.</p>
+            <p><i>Exemplo:</i></p>
+            <form>
+                <legend>Diga uma comida que gosta:</legend>
+                <input list="comida">
+                <datalist id="comida">
+                    <option value="Espinafre"></option>
+                    <option value="Hamburguer"></option>
+                    <option value="Strogonoff"></option>
+                    <option value="Maçã"></option>
+                </datalist>
+            </form>
+        </article>
+    </main>
     <footer id="aaa" class="footer">
 
     </footer>

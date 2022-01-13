@@ -156,12 +156,6 @@
         width: 150px;
     }
     
-    .aaa {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-    }
-    
     .sticky {
         position: fixed;
         top: 0;
@@ -181,26 +175,32 @@
     .footer {
         border-top: 0.1vw solid white;
         padding-top: 4vh;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
         font-family: "Poppins", sans-serif;
         background-color: rgb(16, 15, 15);
-        padding-bottom: 10vh;
+        padding-bottom: 5vh;
         width: 100%;
         z-index: 0;
     }
     
-    .horario {
+    #frase {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        width: 100%;
+    }
+    
+    #fbaixo {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
         position: relative;
-        top: 5.4vw;
-        right: 3vw;
-        font-size: 1.4vw;
-        display: inline-block;
+        bottom: -4vh;
+        gap: 55vw;
+        width: 100%;
     }
     
     #criador {
-        left: 1%;
         font-size: 1.4vw;
     }
     
@@ -219,8 +219,6 @@
         margin: 0 auto;
         color: white;
         position: relative;
-        right: 50%;
-        left: -7%;
         font-family: "Poppins", sans-serif;
         transition: .3s linear;
         transform-origin: center;
@@ -228,6 +226,12 @@
     
     #argue:hover {
         color: rgb(109, 71, 169);
+    }
+    
+    #sa {
+        position: relative;
+        left: 0;
+        right: 0px;
     }
     
     #subtitulo {
@@ -310,7 +314,7 @@
         text-align: left;
         width: 80%;
         gap: 2vh;
-        align-items: center;
+        align-items: flex-start;
     }
     
     .art h2 {

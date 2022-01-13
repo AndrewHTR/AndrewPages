@@ -1,7 +1,10 @@
-var eita = document.getElementById("eita");
-eita.onclick = function() {
-    let i = 1;
-    eita.innerText = "aa";
+var today = new Date();
+document.getElementById("sa").innerText = "Horário: " + today.toLocaleTimeString();
 
+function minhaFunca() {
+    var today = new Date();
+    document.getElementById("sa").innerText = "Horário: " + today.toLocaleTimeString();
 }
-document.write(Date());
+
+
+var t = setInterval(minhaFunca, 1000)

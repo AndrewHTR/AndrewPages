@@ -1,0 +1,55 @@
+.art {
+    border-bottom: 1px solid white;
+    padding-bottom: 8vh;
+}
+
+#pxemplo {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+table,
+th,
+td {
+    padding: 0.5vw 2vw;
+}
+
+th,
+td {
+    border: 0.1vw solid black;
+    border-radius: 4px;
+}
+
+th {
+    background-image: linear-gradient(to right, rgb(36, 36, 36), rgb(38, 34, 34));
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+td {
+    background-image: linear-gradient(to right, rgba(133, 133, 133, 0.57), rgb(126, 125, 125));
+}
+
+td:hover {
+    background-color: black;
+}
+
+a {
+    color: rgb(255, 255, 255);
+}
+
+a:hover {
+    color: rgb(156, 16, 191);
+}
+
+h3 {
+    width: 100%;
+    border-radius: 16px;
+    padding: 0.7vw;
+    background-color: black;
+}
+
+#butao {
+    padding: 8px 16px;
+}
