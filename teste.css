@@ -202,38 +202,50 @@ body {
 .footer {
     border-top: 0.1vw solid white;
     padding-top: 4vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
     font-family: "Poppins", sans-serif;
     background-color: rgb(16, 15, 15);
     padding-bottom: 10vh;
-    width: 100%;
     z-index: 0;
+    width: 100%;
+    gap: 10px;
+    display: grid;
+    grid-template-areas: 'MyArea MyArea MyArea MyArea MyArea';
+}
+
+.footer>div {}
+
+.horario {
+    color: white;
 }
 
 #frase {
-    display: flex;
-    flex-direction: column;
     text-align: center;
-    width: 100%;
 }
 
-#fbaixo {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    position: relative;
-    bottom: -7vh;
-    gap: 54vw;
+#item1 {
+    text-align: center;
+    grid-area: MyArea;
 }
 
-#baba {
+#item2 {
     position: relative;
+    bottom: vh;
+    right: -1vw;
+}
+
+#item3 {
+    grid-column: 2/6;
     display: flex;
-    width: 100%;
-    flex-direction: row;
     justify-content: flex-end;
+    position: relative;
     right: 1vw;
-    bottom: -4vh;
+    bottom: -vh;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: purple;
 }

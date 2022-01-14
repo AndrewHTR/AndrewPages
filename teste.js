@@ -1,9 +1,10 @@
 var today = new Date();
-document.getElementById("sa").innerText = "Horário: " + today.toLocaleTimeString();
+document.getElementById("sa").innerText = today.toLocaleTimeString();
+document.getElementById("sa").style.color = "white";
 
 function minhaFunca() {
     var today = new Date();
-    document.getElementById("sa").innerText = "Horário: " + today.toLocaleTimeString();
+    document.getElementById("sa").innerText = today.toLocaleTimeString();
 }
 
 

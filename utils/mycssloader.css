@@ -180,43 +180,55 @@
         padding-bottom: 5vh;
         width: 100%;
         z-index: 0;
+        gap: 20px;
+    }
+    
+    .footer>div {
+        background-color: ue;
+    }
+    
+    a {
+        color: white;
+        transition: .3s linear;
+    }
+    
+    a:hover {
+        color: rgb(109, 71, 169)
+    }
+    
+    .horario {
+        color: white;
     }
     
     #frase {
-        display: flex;
-        flex-direction: column;
         text-align: center;
-        justify-content: center;
-        width: 100%;
     }
     
-    #fbaixo {
+    .babu {
         display: flex;
         flex-direction: row;
-        justify-content: flex-start;
+        gap: 2vw;
         position: relative;
-        width: 50%;
-    }
-    
-    #criador {
-        font-size: 1.4vw;
-        position: relative;
-        right: -1vw;
         bottom: -3vh;
     }
     
-    #criador a {
-        color: white;
-        transition: .3s linear;
-        transform-origin: center;
+    #item1 {
+        text-align: center;
+        grid-area: MyArea;
     }
     
-    #criador a:hover {
-        color: rgb(109, 71, 169);
+    #item2 {
+        position: relative;
+        left: 1.5vw;
+    }
+    
+    #item3 {
+        position: relative;
+        left: 52.4vw;
     }
     
     #argue {
-        font-size: 1.2vw;
+        font-size: 1.4vw;
         margin: 0 auto;
         color: white;
         position: relative;
@@ -227,12 +239,6 @@
     
     #argue:hover {
         color: rgb(109, 71, 169);
-    }
-    
-    #sa {
-        position: relative;
-        left: 0;
-        right: 0px;
     }
     
     #subtitulo {

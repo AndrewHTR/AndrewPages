@@ -39,23 +39,29 @@ document.getElementById("navizinha").innerHTML =
     "</nav>";
 
 document.getElementById("aaa").innerHTML =
-    '<div id="frase">' +
+    '<div id="item1">' +
     '<a id="argue" href="https://www.youtube.com/watch?v=__QdAxqBi5Y&t "><ins><b><h2 class="h2-footer">Don&#39t shy away from opportunity just because it&#39s something new.</h2></b></ins></a>' +
     '</div>' +
-    '<div id="fbaixo">' +
-    '<span id="criador" class="horario">Criado por: <a href="https://github.com/AndrewHTR"><strong>Andrew Kauã da Silva Santos</strong></a></span>' +
+    '<div class="babu">' +
+    '<div id="item2">' +
+    '<span class="horario">Criado por: <a href="https://github.com/AndrewHTR"><strong>Andrew Kauã da Silva Santos</strong></a></span>' +
+    '</div>' +
+    '<div id="item3">' +
+    '<p class="horario">Horário: <span id="sa"></span></p>' +
+    '</div>' +
     '</div>';
 
 var today = new Date();
-document.getElementById("sa").innerText = "Horário: " + today.toLocaleTimeString();
+document.getElementById("sa").innerText = today.toLocaleTimeString();
+document.getElementById("sa").style.color = "white";
 
 function minhaFunca() {
     var today = new Date();
-    document.getElementById("sa").innerText = "Horário: " + today.toLocaleTimeString();
+    document.getElementById("sa").innerText = today.toLocaleTimeString();
 }
 
 
-var t = setInterval('minhaFunca()', 1000);
+var t = setInterval(minhaFunca, 1000)
 window.onscroll = function() { navFunc() };
 
 var navbar = document.getElementById("navizinha");
