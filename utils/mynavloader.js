@@ -15,6 +15,7 @@ document.getElementById("navizinha").innerHTML =
     '<li><a>CSS</a>' +
     '<ul class="third">' +
     '<li><a href="/subpage/csssubpage/inicio.html">Inicio</a></li>' +
+    '<li><a href="/subpage/csssubpage/sintaxe.html">Sintaxe</a></li>' +
     '</ul></li>' +
     '<li><a>JavaScript</a>' +
     '<ul class="third">' +
@@ -43,7 +44,6 @@ document.getElementById("aaa").innerHTML =
     '</div>' +
     '<div id="fbaixo">' +
     '<span id="criador" class="horario">Criado por: <a href="https://github.com/AndrewHTR"><strong>Andrew Kauã da Silva Santos</strong></a></span>' +
-    '<span id="sa"></span>' +
     '</div>';
 
 var today = new Date();
@@ -55,7 +55,7 @@ function minhaFunca() {
 }
 
 
-var t = setInterval(minhaFunca, 1000)
+var t = setInterval('minhaFunca()', 1000);
 window.onscroll = function() { navFunc() };
 
 var navbar = document.getElementById("navizinha");

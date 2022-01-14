@@ -222,8 +222,18 @@ body {
 #fbaixo {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     position: relative;
-    bottom: -5vh;
+    bottom: -7vh;
     gap: 54vw;
+}
+
+#baba {
+    position: relative;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: flex-end;
+    right: 1vw;
+    bottom: -4vh;
 }
