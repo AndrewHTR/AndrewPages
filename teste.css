@@ -212,8 +212,6 @@ body {
     grid-template-areas: 'MyArea MyArea MyArea MyArea MyArea';
 }
 
-.footer>div {}
-
 .horario {
     color: white;
 }

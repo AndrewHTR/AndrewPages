@@ -16,6 +16,8 @@ document.getElementById("navizinha").innerHTML =
     '<ul class="third">' +
     '<li><a href="/subpage/csssubpage/inicio.html">Inicio</a></li>' +
     '<li><a href="/subpage/csssubpage/sintaxe.html">Sintaxe</a></li>' +
+    '<li><a href="/subpage/csssubpage/float.html">Float</a></li>' +
+    '<li><a href="/subpage/csssubpage/position.html">Position</a></li>' +
     '</ul></li>' +
     '<li><a>JavaScript</a>' +
     '<ul class="third">' +
@@ -30,9 +32,13 @@ document.getElementById("navizinha").innerHTML =
     '<li><a href="/subpage/javasubpage/inicio.html">Inicio</a></li>' +
     '</ul></li>' +
     '</ul></li>' +
-    '<li><a href="/teste.html">Testes</a></li>' +
-    '<li><a href="/sobre.html">Sobre</a>' +
+    '<li><a href="/subpage/projetos/alfredobot.html">Projetos</a>' +
+    '<ul class="second">' +
+    '<li><a href="/subpage/projetos/alfredobot.html">AlfredoBot</a></li>' +
+    '</ul>' +
     '</li>' +
+    '<li><a href="/teste.html">Testes</a></li>' +
+    '<li><a href="/sobre.html">Sobre</a></li>' +
     '</ul>' +
     '</li>' +
     '</ul>' +
