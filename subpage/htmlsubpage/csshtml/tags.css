@@ -23,12 +23,12 @@ td {
 }
 
 th {
-    background-image: linear-gradient(to left, rgba(43, 43, 43, 0.631), rgb(63, 63, 63));
+    background-color: rgb(34, 33, 33);
     color: rgb(255, 255, 255);
 }
 
 td {
-    background-image: linear-gradient(to right, rgba(133, 133, 133, 0.57), rgb(230, 230, 230));
+    background-color: rgb(228, 227, 227);
 }
 
 td:hover {
@@ -66,7 +66,7 @@ caption {
     text-align: center;
     border: 1px solid black;
     border-radius: 8px;
-    background-image: linear-gradient(to top, rgb(21, 21, 21), rgb(28, 20, 29));
+    background-color: rgba(117, 39, 191, 0.881);
 }
 
 #field1 {
@@ -74,31 +74,24 @@ caption {
     width: 70%;
     border: 1px solid black;
     border-radius: 3px;
-    background-image: linear-gradient(to top, rgb(58, 58, 58), rgb(22, 22, 22));
     transition: .3s linear;
 }
 
-#field1:hover {
-    font-size: 1.6vw;
-    width: 100%;
-}
+
 
 .field {
     padding: 10px;
     width: 40%;
     border: 1px solid black;
     border-radius: 3px;
-    background-image: linear-gradient(to top, rgb(58, 58, 58), rgb(22, 22, 22));
+    background-color: rgb(26, 26, 26);
     transition: .3s linear;
     display: flex;
     flex-direction: column;
     gap: 1vw;
 }
 
-.field:hover {
-    font-size: 1.6vw;
-    width: 80%;
-}
+
 
 
 /* rgb(22, 22, 22)*/

@@ -22,17 +22,18 @@ td {
 }
 
 th {
-    background-image: linear-gradient(to right, rgb(36, 36, 36), rgb(38, 34, 34));
+    background-color: rgb(34, 33, 33);
     color: rgb(255, 255, 255);
     text-align: center;
 }
 
 td {
-    background-image: linear-gradient(to right, rgba(133, 133, 133, 0.57), rgb(126, 125, 125));
+    color: black;
+    background-color: rgb(228, 227, 227);
 }
 
 td:hover {
-    background-color: black;
+    background-color: rgb(196, 196, 196);
 }
 
 a {
