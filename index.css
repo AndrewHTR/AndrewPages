@@ -1,26 +1,8 @@
-.listinha {
-    list-style-type: disc;
-    display: flex;
-    flex-direction: column;
-    gap: 1vw;
-}
-
 #prea {
     width: 60%;
     font-family: "Poppins", sans-serif;
 }
 
-#uli {
-    padding-left: 18.54vw;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
-
-#h2-f {
-    position: relative;
-    right: 3.38vw;
-}
 
 #sec {
     width: 98.8vw;
@@ -28,9 +10,15 @@
     border-top: 0.1vw solid white;
 }
 
-section {
+#aaa {
+    position: fixed;
+    bottom: 0;
+}
+.div {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    gap: 6vh;
+    align-items: center;
+    text-align: left;
+    position: relative;
+    bottom: -5vh;
 }

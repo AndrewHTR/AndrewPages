@@ -32,9 +32,10 @@ document.getElementById("navizinha").innerHTML =
     '<li><a href="/subpage/javasubpage/inicio.html">Inicio</a></li>' +
     '</ul></li>' +
     '</ul></li>' +
-    '<li><a href="/subpage/projetos/leilabot.html">Projetos</a>' +
+    '<li><a>Projetos</a>' +
     '<ul class="second">' +
     '<li><a href="/subpage/projetos/leilabot.html">Leila Bot</a></li>' +
+    '<li><a href="/subpage/projetos/landingpage.html">Landing Page</a></li>' +
     '</ul>' +
     '</li>' +
     '<li><a href="/teste.html">Testes</a></li>' +
