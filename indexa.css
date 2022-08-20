@@ -1,0 +1,24 @@
+#prea {
+    width: 60%;
+    font-family: "Poppins", sans-serif;
+}
+
+
+#sec {
+    width: 98.8vw;
+    padding-top: 0vh;
+    border-top: 0.1vw solid white;
+}
+
+#aaa {
+    position: fixed;
+    bottom: 0;
+}
+.div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    position: relative;
+    bottom: -5vh;
+}
