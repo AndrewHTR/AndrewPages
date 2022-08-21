@@ -9,8 +9,15 @@
         flex-direction: column;
         text-align: center;
     }
+    a {
+        color: rgb(206, 206, 206);
+    }
+    a:hover {
+        color: rgb(176, 16, 168);
+    }
     #alto {
-        width: 50%;
+        width: 60%;
+        max-width: inherit;
         display: flex;
         flex-direction: row;
         align-self: center;
@@ -21,10 +28,13 @@
     }
 
     .header {
-        height: 150000%;
+        height: 0%;
+        display: flex;
+        flex-direction: column;
         padding-right: 20px;
         border-right: 1px rgb(176, 16, 168) solid;
         font-family: 'Righteous', cursive;
+        text-align: start;
     }
     .subtitulo {
         text-align: start;
@@ -37,22 +47,30 @@
         gap: 3rem;
     }
     .prea {
-        text-align: start
+        display: flex;
+        flex-direction: column;
+        text-align: start;
     }
     ul {
         text-decoration: none;
         list-style: none;
     }
-    .div-foot {
-        width: 50%;
-        display: flex;
-        flex-direction: column;
+    #imagem {
+        border-radius: 20rem;
+        float: left;
     }
+    
     .foot {
+        max-width: 60%;
+        align-self: center;
         align-self: center;
         border-top: 1px rgb(176, 16, 168) solid;
         padding-top: 2%;
         font-family: "Poppins", sans-serif;
         text-align: start;
+        width: 100%;
+    }
+    .fot {
+        padding-left: 20%;
     }
 }
