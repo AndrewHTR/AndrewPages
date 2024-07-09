@@ -1,27 +1,75 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Righteous&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-/* Geral */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: "Poppins", sans-serif;
+}
+html {
+    background-color: rgb(22, 22, 22);
+    width: 100%;
+    height: 100%;
+
 }
 
 body {
-    background-color: rgb(22, 22, 22);
-    color: rgb(206, 206, 206);
+    background-color: rgb(30, 30, 30);
+    box-shadow: 0px 0.5vw 1.8vw 0.1vw rgb(176, 16, 168);
+    border-left: 1px solid rgb(77, 39, 75);
+    border-right: 1px solid rgb(77, 39, 75);
+    max-width: 90%;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    margin-top: 0vw;
+    display: flex;
+    flex-flow: column;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(145, 26, 139);
+    font-family: 'Righteous', cursive;
+    font-size: 5vw;
+}
+
+#bv {
+    font-size: 3.5vw;
+}
+
+.div {
+    display: flex;
+    flex-flow: row;
+    align-items: flex-start;
+}
+
+.teste {
+    display: flex;
+    flex-flow: column;
+
+}
+
+.linha {
+    margin-bottom: 2vw;
+    margin-top: 3.3vw;
+    align-self: center;
+    width: 90vw;
+    border-bottom: 0.1vw solid rgb(176, 16, 168);
+
 }
 
 
 
-#subtitulo {
-    font-size: 1.0001vh;
-}
-
-
-/* Apenas Mobile*/
-@media (max-width: 900px) {
+p {
+    max-width: 95%;
+    font-size: 1.4vw;
     
+}
+
+img {
+    width: 15vw;
+    height: 15vw;
+    position: relative;
+    bottom: -1.4vw;
 }

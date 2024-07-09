@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* Geral */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(22, 22, 22);
+    color: rgb(206, 206, 206);
+}
+
+
+
+#subtitulo {
+    font-size: 1.0001vh;
+}
+
+
+/* Apenas Mobile*/
+@media (max-width: 900px) {
+    
+}
