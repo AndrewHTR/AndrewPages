@@ -1,77 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Righteous&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-/* Apenas PC */
+/* PC */
 @media (min-width: 900px) {
-    body {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-    }
-    a {
-        color: rgb(206, 206, 206);
-    }
-    a:hover {
-        color: rgb(176, 16, 168);
-    }
-    #alto {
-        width: 60%;
-        max-width: inherit;
-        display: flex;
-        flex-direction: row;
-        align-self: center;
-        padding-top: 4%;
-        gap: 2rem;
-        font-family: "Poppins", sans-serif;
-        padding-bottom: 4%;
-    }
-
-    .header {
-        height: 25%;
-        max-width: 30%;
-        display: flex;
-        flex-direction: column;
-        padding-right: 20px;
-        border-right: 1px rgb(176, 16, 168) solid;
-        font-family: 'Righteous', cursive;
-        text-align: start;
-    }
-    .subtitulo {
-        text-align: start;
-        padding-bottom: 02%;
-        font-size: 4vh;
-    }
     .div {
-        display: flex;
-        flex-direction: column;
-        gap: 3rem;
-    }
-    .prea {
-        display: flex;
-        flex-direction: column;
-        text-align: start;
-    }
-    ul {
-        text-decoration: none;
-        list-style: none;
-    }
-    #imagem {
-        border-radius: 20rem;
-        float: left;
+        padding-bottom: 3vh;
+
     }
     
-    .foot {
-        max-width: 60%;
-        align-self: center;
-        align-self: center;
-        border-top: 1px rgb(176, 16, 168) solid;
-        padding-top: 2%;
-        font-family: "Poppins", sans-serif;
-        text-align: start;
-        width: 100%;
-    }
-    .fot {
-        padding-left: 20%;
+    .posts {
+        padding-top: 3vh;
     }
 }

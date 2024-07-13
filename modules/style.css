@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* Apenas PC */
+@media (min-width: 900px) {
+    body {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        background-color: rgb(22, 22, 22);
+        color: rgb(206, 206, 206);
+    }
+
+    a {
+        color: rgb(206, 206, 206);
+    }
+
+    a:hover {
+        color: rgb(176, 16, 168);
+    }
+
+    .container {
+        width: 70%;
+        max-width: inherit;
+        display: flex;
+        flex-direction: row;
+        align-self: center;
+        padding-top: 4%;
+        gap: 2rem;
+        font-family: "Poppins", sans-serif;
+        padding-bottom: 4%;
+    }
+    
+    .header {
+        position: sticky;
+        top: 4vw;
+        height: 25%;
+        max-width: 35%;
+        display: flex;
+        flex-direction: column;
+        padding-right: 20px;
+        border-right: 1px rgb(176, 16, 168) solid;
+        font-family: 'Righteous', cursive;
+        text-align: start;
+    }
+
+    .indent {
+        padding-left: 2vw;
+    }
+
+    .subtitle {
+        text-align: start;
+        padding-bottom: 2vh;
+        font-size: 4vh;
+    }
+
+    .div {
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+    }
+
+
+    ul {
+        text-decoration: none;
+        list-style: none;
+    }
+
+    #imagem {
+        border-radius: 20rem;
+        float: left;
+    }
+    
+    .foot {
+        width: 70%;
+        font-family: "Poppins", sans-serif;
+        text-align: start;
+        align-self: center;
+        border-top: 1px rgb(176, 16, 168) solid;
+        padding-top: 4vh;
+        padding-bottom: 4vh;
+    }
+
+    .fot {
+        padding-left: 20%;
+    }
+
+    #imagem {
+        width: 11vw; /* or 150px */
+    }
+
+    #imagem-div {
+        padding-left: 1vw;
+    }
+
+}
