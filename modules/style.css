@@ -90,15 +90,12 @@
     }
 
     .fot {
-        padding-left: 20%;
+        padding-left: 12vw;
     }
 
     #imagem {
         width: 11vw; /* or 150px */
     }
 
-    #imagem-div {
-        padding-left: 1vw;
-    }
 
 }

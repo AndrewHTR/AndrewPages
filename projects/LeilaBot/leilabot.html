@@ -12,68 +12,76 @@
 </head>
 
 <body>
-    <header id="navizinha" class="header">
-        <!-- Usando o mynavloader.js para carregar a header com navbar-->
-    </header>
-    <main class="main">
-        <article class="art">
-            <h2>Leila bot foi um bot feito por mim com o propósito de aprendizado e melhor entendimento de como o pycord e api's funcionam.</h2>
-            <span>Deixo <a href="https://discord.com/api/oauth2/authorize?client_id=689012066266382351&permissions=8&scope=bot%20applications.commands"><span id="bot-link">aqui</span></a> um link para adicionar o bot ao seu servidor do discord. :D</span>
-            <span>Acabei mexendo demais nele e o seu escopo que antes era para apenas fazer coisas básicas cresceu e hoje ele</span>
-            
-        </article>
-        <article class="art">
-            <h2>Pode fazer muitas coisas:</h2>
-            <ul>
-                <li>Comandos de música:
-                    <ul class="segunda-lista">
-                        <li><span class="cor-lista">join [canal de voz(opcional)]</span> - Entra na call em que o usuário está </li>
-                        <li><span class="cor-lista">summon [canal de voz(opcional)]</span> - Invoca o bot forçadamente, só pode ser usado por mod.</li>
-                        <li><span class="cor-lista">play [nome]</span> - Toca as músicas especifidas</li>
-                        <img src="./images/Screenshot_445.png">
-                    </ul>
-                </li>
-                <br>
-                <li>Comandos de Moderação: 
-                    <ul class="segunda-lista">
-                        <li><span class="cor-lista">ban [usuário]</span> - Este comando vai banir o usuário especificado do server.</li>
-                        <img src="./images/Screenshot_449.png">
-                        <li><span class="cor-lista">kick [usuário]</span> - Este comando vai expulsar o usuário especificado do server.</li>
-                    </ul>
-                </li>
-                <br>
-                <li>Comandos Sociais:
-                    <ul class="segunda-lista">
-                        <li><span class="cor-lista">avatar [usuário (opcional)]</span> - Bot manda a imagem do perfil do usuário em uma embed.</li>
-                        <img src="./images/Screenshot_446.png">
-                        <li><span class="cor-lista">icon</span> - Bot manda icone do server em uma embed.</li>
-                        <img src="./images/Screenshot_452.png">
-                        <li><span class="cor-lista">perfil [usuário (opcional)]</span> - Bot manda uma embed com informações da conta do usuário (data de criação, cargos que tem no server e etc...)</li>
-                        <img src="./images/Screenshot_447.png">
-                        <li><span class="cor-lista">server</span> - Bot manda uma embed com informações do servidor como no comando de perfil.</li>
-                        <img src="./images/Screenshot_453.png">
-                    </ul>
-                </li>
-                <br>
-                <li>Comandos para informações:
-                    <ul class="segunda-lista">
-                        <li><span class="cor-lista">dolar</span> - Bot manda a cotação do Real para o Dolar atualmente.</li>
-                        <img src="./images/Screenshot_451.png">
-                        <li><span class="cor-lista">euro</span> - Bot manda a cotação do Real para o Euro atualmente.</li>
-                        <img src="./images/Screenshot_450.png">
-                        <li><span class="cor-lista">search [pesquisa]</span> - O bot irá pesquisar oque foi pedido e mandar links do que achou.</li>
-                        <img src="./images/Screenshot_444.png">
-                    </ul>
-                </li>
-            </ul>
-        </article>
-        <article class="art">
-            <p>Futuramente estarei fazendo melhorias e adições de comandos novos no bot.</p>
-            <p>Atualmente com uma pausa.</p>
-        </article>
-    </main>
-    <footer id="aaa" class="footer">
-
+    <div class="container">
+        <header id="navizinha" class="header">
+            <header id="navizinha" class="header">
+                <a href="/index.html">Home</a>
+                <a href="/projects/projects.html">Projects</a>
+                <a href="/about.html">About</a>
+            </header>
+        </header>
+        <main class="main">
+            <section class="div">
+                <h1 class="subtitle subti">Leila bot foi um bot feito por mim com o propósito de aprendizado e melhor entendimento de como o pycord e api's funcionam.</h1>
+                <p>Deixo <a href="https://discord.com/api/oauth2/authorize?client_id=689012066266382351&permissions=8&scope=bot%20applications.commands"><span id="bot-link">aqui</span></a> um link para adicionar o bot ao seu servidor do discord. :D</p>
+                <p>Acabei mexendo demais nele e o seu escopo que antes era para apenas fazer coisas básicas cresceu e hoje ele pode fazer coisas como:</p>
+            </section>
+            <section class="div">
+                    <h2>Comandos de música:</h2>
+                        <ul class="indent">
+                            <li><span class="cor-lista">join [canal de voz(opcional)]</span> - Entra na call em que o usuário está </li>
+                            <li><span class="cor-lista">summon [canal de voz(opcional)]</span> - Invoca o bot forçadamente, só pode ser usado por mod.</li>
+                            <li><span class="cor-lista">play [nome]</span> - Toca as músicas especifidas</li>
+                            <img src="./images/Screenshot_445.png">
+                        </ul>
+                    </li>
+                    <br>
+                    <li>Comandos de Moderação: 
+                        <ul class="segunda-lista">
+                            <li><span class="cor-lista">ban [usuário]</span> - Este comando vai banir o usuário especificado do server.</li>
+                            <img src="./images/Screenshot_449.png">
+                            <li><span class="cor-lista">kick [usuário]</span> - Este comando vai expulsar o usuário especificado do server.</li>
+                        </ul>
+                    </li>
+                    <br>
+                    <li>Comandos Sociais:
+                        <ul class="segunda-lista">
+                            <li><span class="cor-lista">avatar [usuário (opcional)]</span> - Bot manda a imagem do perfil do usuário em uma embed.</li>
+                            <img src="./images/Screenshot_446.png">
+                            <li><span class="cor-lista">icon</span> - Bot manda icone do server em uma embed.</li>
+                            <img src="./images/Screenshot_452.png">
+                            <li><span class="cor-lista">perfil [usuário (opcional)]</span> - Bot manda uma embed com informações da conta do usuário (data de criação, cargos que tem no server e etc...)</li>
+                            <img src="./images/Screenshot_447.png">
+                            <li><span class="cor-lista">server</span> - Bot manda uma embed com informações do servidor como no comando de perfil.</li>
+                            <img src="./images/Screenshot_453.png">
+                        </ul>
+                    </li>
+                    <br>
+                    <li>Comandos para informações:
+                        <ul class="segunda-lista">
+                            <li><span class="cor-lista">dolar</span> - Bot manda a cotação do Real para o Dolar atualmente.</li>
+                            <img src="./images/Screenshot_451.png">
+                            <li><span class="cor-lista">euro</span> - Bot manda a cotação do Real para o Euro atualmente.</li>
+                            <img src="./images/Screenshot_450.png">
+                            <li><span class="cor-lista">search [pesquisa]</span> - O bot irá pesquisar oque foi pedido e mandar links do que achou.</li>
+                            <img src="./images/Screenshot_444.png">
+                        </ul>
+                    </li>
+            </section>
+            <section class="div">
+                <p>Futuramente estarei fazendo melhorias e adições de comandos novos no bot.</p>
+                <p>Atualmente com uma pausa.</p>
+            </section>
+        </main>
+    </div>
+    <footer id="footinho" class="foot">
+        <a href="https://github.com/AndrewHTR">
+            <img id="imagem" src="https://github.com/AndrewHTR.png" alt="Imagem">
+        </a>
+        <div id="imagem-div">
+            <h2 class="fot">Andrew Silva</h2>
+            <p class='fot'>I love overgeared, but i don't like fish.</p>
+        </div>
     </footer>
 </body>
 
